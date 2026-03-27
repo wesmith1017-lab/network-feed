@@ -92,7 +92,7 @@ def build_feed():
     fg = FeedGenerator()
     fg.load_extension("podcast")
 
-    fg.id(NETWORK_FEED_URL)
+    fg.id(NETWORK_LINK)
     fg.title(NETWORK_TITLE)
     fg.link(href=NETWORK_LINK, rel="alternate")
     fg.link(href=NETWORK_FEED_URL, rel="self")
