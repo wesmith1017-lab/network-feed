@@ -144,8 +144,14 @@ def build_feed():
         if duration:
             fe.podcast.itunes_duration(str(duration))
 
-        explicit = entry.get("itunes_explicit", NETWORK_EXPLICIT)
-        fe.podcast.itunes_explicit(str(explicit).lower())
+        raw_explicit = str(entry.get("itunes_explicit") or NETWORK_EXPLICIT).lower().strip()
+        if raw_explicit in ("yes", "true", "explicit"):
+            explicit = "yes"
+        elif raw_explicit in ("clean",):
+            explicit = "clean"
+        else:
+            explicit = "no"
+        fe.podcast.itunes_explicit(explicit)
 
         # Per-episode artwork (falls back to network image)
         ep_image = entry.get("itunes_image", {})
