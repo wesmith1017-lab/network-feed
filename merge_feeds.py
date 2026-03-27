@@ -81,7 +81,10 @@ def build_feed():
 
     for url in FEEDS:
         print(f"Fetching: {url}")
-        parsed = feedparser.parse(url)
+    parsed = feedparser.parse(url, request_headers={
+            "Cache-Control": "no-cache",
+            "Pragma": "no-cache"
+        })
 
         if parsed.bozo and not parsed.entries:
             print(f"  WARNING: Could not parse {url} — skipping")
