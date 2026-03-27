@@ -98,6 +98,9 @@ def build_feed():
     all_entries.sort(key=parse_date, reverse=True)
    # all_entries = all_entries[:100] # temporarily disabled for testing
     print(f"\nTotal episodes across all shows: {len(all_entries)}")
+    all_entries.sort(key=parse_date, reverse=True)
+    for e in all_entries[:5]:
+        print(f"  {parse_date(e)} — {e.get('title')}")
 
     # ── Build the output feed ─────────────────────────────────────────────────
     fg = FeedGenerator()
