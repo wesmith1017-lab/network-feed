@@ -109,7 +109,6 @@ def build_feed():
 
     for entry in all_entries:
         fe = fg.add_entry()
-        fe.load_extension("podcast")
 
         # Core fields
         guid = entry.get("id") or entry.get("link") or entry.get("title", "")
