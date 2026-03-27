@@ -21,7 +21,7 @@ FEEDS = [
 ]
 
 NETWORK_TITLE = "Trek Geeks Podcast Network"
-NETWORK_LINK  = "https://trekgeeks.com"
+NETWORK_LINK  = "https://www.trekgeeks.com"
 NETWORK_DESCRIPTION = (
     "Trek Geeks Podcast Network is home to a collection of fan-driven podcasts "
     "celebrating Star Trek, science fiction, and the fandoms that bring us together. "
@@ -102,7 +102,7 @@ def build_feed():
     fg.author({"name": NETWORK_AUTHOR, "email": NETWORK_EMAIL})
 
     fg.podcast.itunes_author(NETWORK_AUTHOR)
-    fg.podcast.itunes_category(NETWORK_CATEGORY)
+    fg.podcast.itunes_category("TV & Film", cat2="Film Reviews")
     fg.podcast.itunes_explicit(NETWORK_EXPLICIT)
     fg.podcast.itunes_image(NETWORK_IMAGE)
     fg.podcast.itunes_owner(name=NETWORK_AUTHOR, email=NETWORK_EMAIL)
