@@ -97,7 +97,7 @@ def build_feed():
 
     # Sort newest first, cap at 100
     all_entries.sort(key=parse_date, reverse=True)
-    all_entries = all_entries[:100]
+   # all_entries = all_entries[:100] # temporarily disabled for testing
     print(f"\nTotal episodes across all shows: {len(all_entries)}")
 
     # ── Build the output feed ─────────────────────────────────────────────────
