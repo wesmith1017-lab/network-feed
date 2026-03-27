@@ -10,6 +10,7 @@ from feedgen.feed import FeedGenerator
 import datetime
 import pytz
 import os
+from email.utils import parsedate_to_datetime
 
 # ── CONFIG — edit these ───────────────────────────────────────────────────────
 FEEDS = [
@@ -48,9 +49,19 @@ OUTPUT_PATH = "docs/feed.xml"
 
 
 def parse_date(entry):
-    """Return a timezone-aware datetime for sorting. Falls back to epoch."""
+    # Try structured parsed date first
     if hasattr(entry, "published_parsed") and entry.published_parsed:
-        return datetime.datetime(*entry.published_parsed[:6], tzinfo=pytz.utc)
+        try:
+            return datetime.datetime(*entry.published_parsed[:6], tzinfo=pytz.utc)
+        except Exception:
+            pass
+    # Fall back to raw date string
+    raw = entry.get("published") or entry.get("updated") or ""
+    if raw:
+        try:
+            return parsedate_to_datetime(raw).astimezone(pytz.utc)
+        except Exception:
+            pass
     return datetime.datetime(1970, 1, 1, tzinfo=pytz.utc)
 
 
