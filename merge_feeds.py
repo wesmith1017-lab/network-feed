@@ -119,7 +119,10 @@ def build_feed():
     fg.podcast.itunes_explicit(NETWORK_EXPLICIT)
     fg.podcast.itunes_image(NETWORK_IMAGE)
     fg.podcast.itunes_owner(name=NETWORK_AUTHOR, email=NETWORK_EMAIL)
-
+    
+all_entries.reverse()
+    for entry in all_entries:
+        fe = fg.add_entry()
     for entry in all_entries:
         fe = fg.add_entry()
 
