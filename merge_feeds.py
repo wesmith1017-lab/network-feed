@@ -84,8 +84,9 @@ def build_feed():
             entry["_show_title"] = show_title
             all_entries.append(entry)
 
-    # Sort newest first
+    # Sort newest first, cap at 100
     all_entries.sort(key=parse_date, reverse=True)
+    all_entries = all_entries[:100]
     print(f"\nTotal episodes across all shows: {len(all_entries)}")
 
     # ── Build the output feed ─────────────────────────────────────────────────
@@ -94,8 +95,7 @@ def build_feed():
 
     fg.id(NETWORK_LINK)
     fg.title(NETWORK_TITLE)
-    fg.link(href=NETWORK_LINK, rel="alternate")
-    fg.link(href=NETWORK_FEED_URL, rel="self")
+    fg.link(href=NETWORK_LINK)
     fg.description(NETWORK_DESCRIPTION)
     fg.language(NETWORK_LANGUAGE)
     fg.image(url=NETWORK_IMAGE, title=NETWORK_TITLE, link=NETWORK_LINK)
