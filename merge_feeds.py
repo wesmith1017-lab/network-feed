@@ -35,8 +35,8 @@ NETWORK_DESCRIPTION = (
 )
 
 # Replace YOURUSERNAME with your actual GitHub username
-NETWORK_IMAGE    = "https://YOURUSERNAME.github.io/network-feed/artwork.jpg"
-NETWORK_FEED_URL = "https://YOURUSERNAME.github.io/network-feed/feed.xml"
+NETWORK_IMAGE    = "https://wesmith1017-lab.github.io/network-feed/artwork.jpg"
+NETWORK_FEED_URL = "https://wesmith1017-lab.github.io/network-feed/feed.xml"
 NETWORK_EMAIL    = "podcast@trekgeeks.com"
 NETWORK_AUTHOR   = "Trek Geeks Podcast Network"
 NETWORK_LANGUAGE = "en-us"
