@@ -179,10 +179,6 @@ def build_feed():
     fg.rss_file(OUTPUT_PATH, pretty=True)
 
     # Verify written order
-    with open(OUTPUT_PATH, 'r') as f:
-        content = f.read()
-    titles = re.findall(r'<title>(.*?)</title>', content)
-    print(f"\nFirst 5 titles in written file: {titles[1:6]}")
     print(f"\nFeed written to: {OUTPUT_PATH}")
     print(f"Live at: {NETWORK_FEED_URL}")
 
