@@ -198,6 +198,12 @@ all_entries.reverse()
     # ── Write output ──────────────────────────────────────────────────────────
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     fg.rss_file(OUTPUT_PATH, pretty=True)
+    # Debug: verify written file order
+    with open(OUTPUT_PATH, 'r') as f:
+        content = f.read()
+    import re
+    titles = re.findall(r'<title>(.*?)</title>', content)
+    print(f"First 5 titles in written file: {titles[1:6]}")
     print(f"\nFeed written to: {OUTPUT_PATH}")
     print(f"Will be live at: {NETWORK_FEED_URL}")
 
