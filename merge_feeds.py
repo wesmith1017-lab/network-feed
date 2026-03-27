@@ -10,6 +10,7 @@ from feedgen.feed import FeedGenerator
 import datetime
 import pytz
 import os
+import re
 from email.utils import parsedate_to_datetime
 
 # ── CONFIG — edit these ───────────────────────────────────────────────────────
@@ -35,27 +36,25 @@ NETWORK_DESCRIPTION = (
     "that inspire us, the Trek Geeks Podcast Network has something for you."
 )
 
-# Replace YOURUSERNAME with your actual GitHub username
 NETWORK_IMAGE    = "https://wesmith1017-lab.github.io/network-feed/artwork.jpg"
 NETWORK_FEED_URL = "https://wesmith1017-lab.github.io/network-feed/feed.xml"
 NETWORK_EMAIL    = "podcast@trekgeeks.com"
 NETWORK_AUTHOR   = "Trek Geeks Podcast Network"
 NETWORK_LANGUAGE = "en-us"
-NETWORK_CATEGORY = "TV & Film"
 NETWORK_EXPLICIT = "no"
+MAX_EPISODES     = 100
 
 OUTPUT_PATH = "docs/feed.xml"
 # ─────────────────────────────────────────────────────────────────────────────
 
 
 def parse_date(entry):
-    # Try structured parsed date first
+    """Return a timezone-aware datetime for sorting. Falls back to epoch."""
     if hasattr(entry, "published_parsed") and entry.published_parsed:
         try:
             return datetime.datetime(*entry.published_parsed[:6], tzinfo=pytz.utc)
         except Exception:
             pass
-    # Fall back to raw date string
     raw = entry.get("published") or entry.get("updated") or ""
     if raw:
         try:
@@ -65,40 +64,32 @@ def parse_date(entry):
     return datetime.datetime(1970, 1, 1, tzinfo=pytz.utc)
 
 
-def safe_get(entry, *keys, default=""):
-    """Try multiple attribute names, return first hit."""
-    for key in keys:
-        val = getattr(entry, key, None)
-        if val:
-            return val
-        if isinstance(entry, dict) and key in entry:
-            return entry[key]
-    return default
-
-
 def build_feed():
     all_entries = []
+
     for url in FEEDS:
         print(f"Fetching: {url}")
         parsed = feedparser.parse(url, request_headers={
             "Cache-Control": "no-cache",
             "Pragma": "no-cache"
         })
+
         if parsed.bozo and not parsed.entries:
             print(f"  WARNING: Could not parse {url} — skipping")
             continue
+
         show_title = parsed.feed.get("title", "Unknown Show")
         print(f"  Found {len(parsed.entries)} episodes from: {show_title}")
+
         for entry in parsed.entries:
-            # Stash show metadata on the entry for later use
             entry["_show_title"] = show_title
             all_entries.append(entry)
 
-    # Sort newest first, cap at 100
+    # Sort newest first, cap at MAX_EPISODES
     all_entries.sort(key=parse_date, reverse=True)
-   # all_entries = all_entries[:100] # temporarily disabled for testing
-    print(f"\nTotal episodes across all shows: {len(all_entries)}")
-    all_entries.sort(key=parse_date, reverse=True)
+    all_entries = all_entries[:MAX_EPISODES]
+
+    print(f"\nTotal episodes in merged feed: {len(all_entries)}")
     for e in all_entries[:5]:
         print(f"  {parse_date(e)} — {e.get('title')}")
 
@@ -119,19 +110,17 @@ def build_feed():
     fg.podcast.itunes_explicit(NETWORK_EXPLICIT)
     fg.podcast.itunes_image(NETWORK_IMAGE)
     fg.podcast.itunes_owner(name=NETWORK_AUTHOR, email=NETWORK_EMAIL)
-    
-all_entries.reverse()
-    for entry in all_entries:
+
+    # feedgen reverses entry order on write, so feed oldest-first here
+    for entry in reversed(all_entries):
         fe = fg.add_entry()
 
-        # Core fields
         guid = entry.get("id") or entry.get("link") or entry.get("title", "")
         fe.id(guid)
         fe.title(entry.get("title", "Untitled"))
         fe.link(href=entry.get("link", NETWORK_LINK))
         fe.pubDate(parse_date(entry))
 
-        # Description — prefer content, fall back to summary
         content = entry.get("content", [])
         if content:
             description = content[0].get("value", "")
@@ -139,7 +128,6 @@ all_entries.reverse()
             description = entry.get("summary") or entry.get("description") or ""
         fe.description(description)
 
-        # Enclosure (the audio file)
         enclosures = entry.get("enclosures", [])
         if enclosures:
             enc = enclosures[0]
@@ -149,25 +137,19 @@ all_entries.reverse()
                 type=enc.get("type", "audio/mpeg"),
             )
 
-        # iTunes-specific tags
-        duration = (
-            entry.get("itunes_duration")
-            or entry.get("itunes_duration")
-            or ""
-        )
+        duration = entry.get("itunes_duration") or ""
         if duration:
             fe.podcast.itunes_duration(str(duration))
 
         raw_explicit = str(entry.get("itunes_explicit") or NETWORK_EXPLICIT).lower().strip()
         if raw_explicit in ("yes", "true", "explicit"):
             explicit = "yes"
-        elif raw_explicit in ("clean",):
+        elif raw_explicit == "clean":
             explicit = "clean"
         else:
             explicit = "no"
         fe.podcast.itunes_explicit(explicit)
 
-        # Per-episode artwork (falls back to network image)
         ep_image = entry.get("itunes_image", {})
         if isinstance(ep_image, dict):
             ep_image = ep_image.get("href", "")
@@ -184,7 +166,6 @@ all_entries.reverse()
         )
         fe.podcast.itunes_author(author)
 
-        # Episode/season numbers if present
         ep_num = entry.get("itunes_episode")
         if ep_num:
             fe.podcast.itunes_episode(str(ep_num))
@@ -196,14 +177,14 @@ all_entries.reverse()
     # ── Write output ──────────────────────────────────────────────────────────
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     fg.rss_file(OUTPUT_PATH, pretty=True)
-    # Debug: verify written file order
+
+    # Verify written order
     with open(OUTPUT_PATH, 'r') as f:
         content = f.read()
-    import re
     titles = re.findall(r'<title>(.*?)</title>', content)
-    print(f"First 5 titles in written file: {titles[1:6]}")
+    print(f"\nFirst 5 titles in written file: {titles[1:6]}")
     print(f"\nFeed written to: {OUTPUT_PATH}")
-    print(f"Will be live at: {NETWORK_FEED_URL}")
+    print(f"Live at: {NETWORK_FEED_URL}")
 
 
 if __name__ == "__main__":
