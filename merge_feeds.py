@@ -78,21 +78,17 @@ def safe_get(entry, *keys, default=""):
 
 def build_feed():
     all_entries = []
-
     for url in FEEDS:
         print(f"Fetching: {url}")
-    parsed = feedparser.parse(url, request_headers={
+        parsed = feedparser.parse(url, request_headers={
             "Cache-Control": "no-cache",
             "Pragma": "no-cache"
         })
-
         if parsed.bozo and not parsed.entries:
             print(f"  WARNING: Could not parse {url} — skipping")
             continue
-
         show_title = parsed.feed.get("title", "Unknown Show")
         print(f"  Found {len(parsed.entries)} episodes from: {show_title}")
-
         for entry in parsed.entries:
             # Stash show metadata on the entry for later use
             entry["_show_title"] = show_title
