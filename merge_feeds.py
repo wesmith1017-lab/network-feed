@@ -123,8 +123,6 @@ def build_feed():
 all_entries.reverse()
     for entry in all_entries:
         fe = fg.add_entry()
-    for entry in all_entries:
-        fe = fg.add_entry()
 
         # Core fields
         guid = entry.get("id") or entry.get("link") or entry.get("title", "")
