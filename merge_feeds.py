@@ -150,9 +150,19 @@ def build_feed():
             explicit = "no"
         fe.podcast.itunes_explicit(explicit)
 
-        ep_image = entry.get("itunes_image", {})
-        if isinstance(ep_image, dict):
-            ep_image = ep_image.get("href", "")
+        ep_image = ""
+        # Try multiple locations feedparser uses depending on host
+        if entry.get("itunes_image"):
+            img = entry.get("itunes_image")
+            ep_image = img.get("href", "") if isinstance(img, dict) else str(img)
+        if not ep_image and entry.get("image"):
+            img = entry.get("image")
+            ep_image = img.get("href", "") if isinstance(img, dict) else str(img)
+        if not ep_image:
+            for tag in entry.get("tags", []):
+                if "image" in tag.get("term", "").lower():
+                    ep_image = tag.get("scheme", "") or tag.get("label", "")
+                    break
         fe.podcast.itunes_image(ep_image or NETWORK_IMAGE)
 
         episode_type = entry.get("itunes_episodetype", "full")
