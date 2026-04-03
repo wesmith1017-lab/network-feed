@@ -169,9 +169,9 @@ def build_feed():
         fe.podcast.itunes_episode_type(episode_type)
 
         author = (
-            entry.get("itunes_author")
+            entry.get("_show_title")
+            or entry.get("itunes_author")
             or entry.get("author")
-            or entry.get("_show_title")
             or NETWORK_AUTHOR
         )
         fe.podcast.itunes_author(author)
