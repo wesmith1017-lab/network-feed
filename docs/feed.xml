@@ -12,7 +12,7 @@
       <link>https://www.trekgeeks.com</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Apr 2026 06:20:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 10:51:57 +0000</lastBuildDate>
     <itunes:author>Trek Geeks Podcast Network</itunes:author>
     <itunes:category text="TV &amp; Film"/>
     <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
@@ -21,6 +21,21 @@
       <itunes:name>Trek Geeks Podcast Network</itunes:name>
       <itunes:email>podcast@trekgeeks.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>The Trek Hill I'm Willing to Die On</title>
+      <link>https://trekgeeks.libsyn.com/the-trek-hill-im-willing-to-die-on</link>
+      <description>&lt;p&gt;This week on &lt;em&gt;Trek Geeks&lt;/em&gt;, we're bringing you the best moments from a recent Thursday Night Geeks where things got bold, loud, and unapologetically opinionated.&lt;/p&gt; &lt;p&gt;Bill and Dan took a stand on "The Trek Hill I'm Willing to Die On," sharing the Star Trek hot takes they'll defend to the very end. No fence-sitting. No safe answers. Just pure, unfiltered fandom. From controversial episodes and underrated characters to creative decisions that still spark debate, nothing across the Trek universe was off limits.&lt;/p&gt; &lt;p&gt;Along the way, there's plenty of laughter, some spirited back-and-forth, and a few moments that might have you shouting at your podcast app. And of course, the community weighed in too, proving once again that every fan has their hill.&lt;/p&gt; &lt;p&gt;The real question is: what's yours?&lt;/p&gt; &lt;p&gt;So settle in and get ready...because this is one climb you won't want to miss.&lt;/p&gt;</description>
+      <guid isPermaLink="false">b3adc000-a3d0-46b7-a27c-71b062f64243</guid>
+      <enclosure url="https://traffic.libsyn.com/secure/trekgeeks/tg336.mp3?dest-id=242244" length="101770376" type="audio/mpeg"/>
+      <pubDate>Tue, 14 Apr 2026 07:00:00 +0000</pubDate>
+      <itunes:author>Trek Geeks: A Star Trek Podcast</itunes:author>
+      <itunes:image href="https://static.libsyn.com/p/assets/9/a/9/3/9a930e40bdb10254d959afa2a1bf1c87/TG336-20260414-rw9dffvkvh.jpg"/>
+      <itunes:duration>01:10:23</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>336</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>When Worlds Collide</title>
       <link>https://podcasters.spotify.com/pod/show/bigscifipodcast/episodes/When-Worlds-Collide-e3ho039</link>
@@ -1503,21 +1518,6 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:season>7</itunes:season>
       <itunes:episode>19</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>The Voice &amp; Deception</title>
-      <link>https://podcasters.spotify.com/pod/show/planetzero/episodes/The-Voice--Deception-e2v4rl0</link>
-      <description>&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Chapters 6-7&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The alien interacts with the crew of the Redemption while they try to unravel the mystery of the sudden abduction of their crew mate. Commander Gates must choose between the possibility of rescuing Cheryl Atkinson and his duty to protect the lives of his crew as their ship is pulled slowly towards the planet.&lt;/p&gt;&lt;p&gt;This podcast is presented by the Trek Geeks Podcast Network. Listen to all of their amazing podcasts at: &lt;a href="http://trekgeeks.com"&gt;trekgeeks.com&lt;/a&gt;&lt;/p&gt;&lt;p&gt;This podcast is a sister podcast of The BIG Sci-Fi Podcast! Check out Adeena, Brian, Cris, and Steve as they talk about all things science fiction at: &lt;a href="http://trekgeeks.com/bigscifipodcast"&gt;trekgeeks.com/bigscifipodcast&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The BIG Sci-Fi Podcast is also available everywhere you listen to your favorite podcasts!&lt;/p&gt;&lt;p&gt;Planet Zero is an original science fiction story written, performed, and produced by Brian Donahue.&lt;/p&gt;&lt;p&gt;Check out Brian's historical fiction book, a novella called The Darkness and the Light. It's available on Amazon in paperback and for Kindle: &lt;a href="https://a.co/d/dmPz9Ze"&gt;https://a.co/d/dmPz9Ze&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Check out Brian's original music at: &lt;a href="http://reverbnation.com/briantdonahue"&gt;reverbnation.com/briantdonahue&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Music heard in this episode is available for free at: &lt;a href="http://pixabay.com"&gt;pixabay.com&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">b796c697-7228-4761-b634-f28d2ca83518</guid>
-      <enclosure url="https://anchor.fm/s/fd59f580/podcast/play/98774112/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-1-20%2Fd947a3cb-53e0-1da5-f933-ea67739ed6e0.mp3" length="12720353" type="audio/mpeg"/>
-      <pubDate>Thu, 20 Feb 2025 13:37:17 +0000</pubDate>
-      <itunes:author>Planet Zero: An Original Science Fiction Story</itunes:author>
-      <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42405312/42405312-1740058620213-f5e0643af26d4.jpg"/>
-      <itunes:duration>00:17:06</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:season>1</itunes:season>
-      <itunes:episode>5</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
