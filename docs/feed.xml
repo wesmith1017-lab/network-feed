@@ -12,7 +12,7 @@
       <link>https://www.trekgeeks.com</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 May 2026 05:58:58 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 07:53:04 +0000</lastBuildDate>
     <itunes:author>Trek Geeks Podcast Network</itunes:author>
     <itunes:category text="TV &amp; Film"/>
     <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
@@ -21,6 +21,36 @@
       <itunes:name>Trek Geeks Podcast Network</itunes:name>
       <itunes:email>podcast@trekgeeks.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Harry Kim Has No Filter</title>
+      <link>https://syfysistas.libsyn.com/harry-kim-has-no-filter</link>
+      <description>&lt;p&gt;The Tangent Episode&lt;/p&gt; &lt;p&gt;Ensign Harry Kim is in the house and he has absolutely no filter. Garrett Wang — Star Trek Voyager's Two Pip Kim himself — sits down with the SyFy Sistas for a conversation that goes everywhere. Family, Dragon Con, being an OG podcaster, the Kardashians, and tangents so wild you just have to settle in and enjoy the ride. 🎧Subscribe and don't miss a single episode of Season 6! &lt;/p&gt; &lt;p&gt;Garrett Wang 📸 Instagram: &lt;a href="https://www.instagram.com/garrettrwang"&gt;https://www.instagram.com/garrettrwang&lt;/a&gt; The Delta Flyers Podcast 🌐 Website: &lt;a href="https://www.thedeltaflyers.org/"&gt;https://www.thedeltaflyers.org/&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Associate Producers: Sailor Marj, Karen Dramera, Stephanie Baker &amp; Chris Garis Logo: Dena Massenburg Music: "Poppin off the Rip" by RAGE (YouTube Audio Library) The SyFy Sistas Podcast — named 2025 Best All-Around Star Trek Podcast by TrekMovie&lt;/p&gt; &lt;p&gt;Support us on Patreon: &lt;a href="http://patreon.com/syfysistas"&gt;patreon.com/syfysistas&lt;/a&gt; Subscribe, Like, Share: &lt;a href="http://linktr.ee/syfysistas"&gt;linktr.ee/syfysistas&lt;/a&gt; Find us on The Trek Geeks Podcasts Network: &lt;a href="http://trekgeeks.com"&gt;trekgeeks.com&lt;/a&gt;&lt;/p&gt; &lt;p&gt;FanSets — Our pins have character. Thanks to FanSets for being the presenting sponsor of the Trek Geeks Podcasts. Use the exclusive code in this episode for 10% off: &lt;a href="http://fansets.com"&gt;fansets.com&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">96ff3e78-2f02-4c41-89b3-96479c51aa81</guid>
+      <enclosure url="https://traffic.libsyn.com/secure/syfysistas/sfs609.mp3?dest-id=2634533" length="121065084" type="audio/mpeg"/>
+      <pubDate>Fri, 08 May 2026 07:00:00 +0000</pubDate>
+      <itunes:author>SyFy Sistas</itunes:author>
+      <itunes:image href="https://static.libsyn.com/p/assets/9/e/4/3/9e43739b69d93f8fd959afa2a1bf1c87/sfs609.jpg"/>
+      <itunes:duration>01:23:55</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:season>6</itunes:season>
+      <itunes:episode>9</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Starfleet Academy Episodes 6-10!</title>
+      <link>https://podcasters.spotify.com/pod/show/bigscifipodcast/episodes/Starfleet-Academy-Episodes-6-10-e3j2ck6</link>
+      <description>&lt;p&gt;This week on The BIG Sci‑Fi Podcast, Adeena, Brian, Cris, and Steve dive back into the halls of Starfleet Academy as they boldly explore episodes 6–10 of the show’s first season.&lt;/p&gt;&lt;p&gt;From surprising character turns to big emotional beats, from questionable command decisions to laugh‑out‑loud moments only this crew could deliver, the team breaks down what worked, what didn’t, and what has them hyped for the rest of the season. Expect spirited debate, deep‑cut sci‑fi references, and plenty of the fun, thoughtful banter listeners love.&lt;/p&gt;&lt;p&gt;Whether you’re a seasoned cadet or just beaming in, this episode is packed with insights, laughs, and sci‑fi joy. Grab your comm badge and join the conversation as we continue our journey through Starfleet Academy’s inaugural season.&lt;/p&gt;</description>
+      <guid isPermaLink="false">6b2f2627-ff55-4a44-84d7-087c37dfe70a</guid>
+      <enclosure url="https://anchor.fm/s/e3caae34/podcast/play/119664710/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-7%2F3d12e22b-2a01-7e81-ec67-2f8c69124976.mp3" length="99787312" type="audio/mpeg"/>
+      <pubDate>Fri, 08 May 2026 07:00:00 +0000</pubDate>
+      <itunes:author>The BIG Sci-Fi Podcast</itunes:author>
+      <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/38117109/38117109-1778198414995-e4c8846656582.jpg"/>
+      <itunes:duration>00:59:05</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:season>10</itunes:season>
+      <itunes:episode>14</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>Spiderman 2</title>
       <link>https://podcasters.spotify.com/pod/show/bigscifipodcast/episodes/Spiderman-2-e3ik5mb</link>
@@ -1488,36 +1518,6 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:season>1</itunes:season>
       <itunes:episode>7</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>Adeena Reports on Star Trek: The Cruise!</title>
-      <link>https://podcasters.spotify.com/pod/show/bigscifipodcast/episodes/Adeena-Reports-on-Star-Trek-The-Cruise-e300qjc</link>
-      <description>&lt;p&gt;&lt;strong&gt;Special Bonus Episode!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Our own, Adeena Mignogna, just got back from The Cruise and is spilling the beans on all of her fun adventures! We get an inside look at what it was like to cruise with some of Trek's biggest stars and celebrate the 30th anniversary of Voyager. One day, all of us will be on this cruise together! Until then, we live happily through the stories of our intrepid and lucky co-host, Adeena!&lt;/p&gt;&lt;p&gt;This podcast is a proud part of the Trek Geeks Podcast Network and works hard to bring you great content from all over the science fiction universe. We would love to hear your feedback, suggestions, and ideas. Take a moment to send us an email at &lt;a href="mailto:thebigscifipodcast@gmail.com"&gt;thebigscifipodcast@gmail.com&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Music heard on this podcast opening is from Mikhail Smusev of SignmaMusicArt and provided by Pixabay.  Listen to more of his music at: &lt;a href="https://pixabay.com/users/sigmamusicart-36860929/"&gt;https://pixabay.com/users/sigmamusicart-36860929/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Music heard at the end of this podcast is from Ivan Ohanezov of PumpUpTheMind and provided by Pixabay.  Listen to more of his music at: &lt;a href="https://pixabay.com/users/pumpupthemind-19969411/"&gt;https://pixabay.com/users/pumpupthemind-19969411/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Check our podcast out and learn more about the other great podcasts on the network by visiting &lt;a href="http://trekgeeks.com"&gt;trekgeeks.com&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;We've got the merch!  If you want BIG Sci-Fi swag, check out this link and support us by wearing us everywhere you go! &lt;a href="http://www.teepublic.com/thebigscifipodcast"&gt;www.teepublic.com/thebigscifipodcast&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Check out all of our social links in one place:&lt;br /&gt;&lt;a href="https://linktr.ee/thebigscifipodcast"&gt;https://linktr.ee/thebigscifipodcast&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Check out Cris' amazing YouTube channel for Trek content galore:&lt;br /&gt;&lt;a href="https://www.youtube.com/@yellingaboutstartrek1532"&gt;https://www.youtube.com/@yellingaboutstartrek1532&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Check out Brian's new book available at Amazon for Kindle and in paperback:&lt;br /&gt;&lt;a href="https://www.amazon.com/stores/Brian-Donahue/author/B0C3BQ93VD"&gt;https://www.amazon.com/stores/Brian-Donahue/author/B0C3BQ93VD&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Subscribe for free to Brian's Substack page where he writes original science fiction and fantasy: &lt;a href="https://bdonahue.substack.com/"&gt;https://bdonahue.substack.com/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Find Adeena's books here: &lt;a href="https://crazyrobot.myshopify.com/"&gt;https://crazyrobot.myshopify.com/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Follow her on Substack here: &lt;a href="https://beyondthedroid.substack.com"&gt;https://beyondthedroid.substack.com&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">9fe19d79-a133-4e83-93a0-7844f9012d9e</guid>
-      <enclosure url="https://anchor.fm/s/e3caae34/podcast/play/99690540/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-11%2Feb18c0a6-42a0-4f92-1c40-4aac11bc0e64.mp3" length="27716667" type="audio/mpeg"/>
-      <pubDate>Tue, 11 Mar 2025 12:40:12 +0000</pubDate>
-      <itunes:author>The BIG Sci-Fi Podcast</itunes:author>
-      <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/38117109/38117109-1741696651221-12aaa3e42ff84.jpg"/>
-      <itunes:duration>00:37:48</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:season>7</itunes:season>
-      <itunes:episode>21</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>Quirky Black Sci-Fi Tales w/ M'Shai S. Dash</title>
-      <link>https://syfysistas.libsyn.com/quirky-black-sci-fi-tales-w-mshai-s-dash</link>
-      <description>&lt;p&gt;"Let's Talk Mess"&lt;/p&gt; &lt;p&gt;This week, Subrina, Tamia, and Yvette welcome the talented M'Shai S. Dash, an award-winning Muslim author, writer, and speaker from Washington, D.C. Known for her work on transforming adversity into purpose, Afrofuturism, and the power of storytelling, M'Shai joined us to promote her new book. But it quickly turned into a joyful session of "talking mess," filled with witty banter and serious insights. Tune in for a fun, yet thoughtful conversation on art, activism, and social justice! Her recent releases are a volume of poetry called Woman In Sujud, and Quirky Black Sci-Fi Tales: Volume II, the second installment in her debut sci-fi series.&lt;/p&gt; &lt;p&gt;Find and Follow M'Shai S. Dash: &lt;a href="https://mshaidash.com/"&gt;https://mshaidash.com/&lt;/a&gt; IG: &lt;a href="https://www.instagram.com/mmmshai/"&gt;https://www.instagram.com/mmmshai/&lt;/a&gt; Books by M'Shai S. Dash: &lt;a href="https://www.amazon.com/s?k=m'shai+dash&amp;amp;crid=1JML317YEVQWZ&amp;amp;sprefix=m'shai+dash,aps,68&amp;amp;ref=nb_sb_noss"&gt;https://www.amazon.com/s?k=m'shai+dash&amp;amp;crid=1JML317YEVQWZ&amp;amp;sprefix=m'shai+dash,aps,68&amp;amp;ref=nb_sb_noss&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Associate Producers: Sailor Marj, Karen Dramera and Stephanie Baker Thank you Dena Massenburg for our dope logo: @blackbeanz70 Music: "Poppin off the Rip" Artist: RAGE Source: YouTube Audio Library SUPPORT US ON PATREON &lt;a href="https://www.patreon.com/syfysistas"&gt;https://www.patreon.com/syfysistas&lt;/a&gt; SUBSCRIBE &gt; LIKE &gt; SHARE &lt;a href="https://linktr.ee/syfysistas"&gt;https://linktr.ee/syfysistas&lt;/a&gt;&lt;/p&gt; &lt;p&gt;You can find the SyFy Sistas and our family of podcasts on The Trek Geeks Podcasts Network: &lt;a href="https://trekgeeks.com"&gt;https://trekgeeks.com&lt;/a&gt;&lt;/p&gt; &lt;p&gt;FANSETS - Our pins...have character. We want to thank our friends at FanSets for being the presenting sponsor of the Trek Geeks Podcasts. Tune in to this episode to get an exclusive code and score 10% off your entire purchase!: &lt;a href="https://fansets.com"&gt;https://fansets.com&lt;/a&gt;&lt;/p&gt; &lt;p&gt;STRANGER COMICS. THE BEST IN FANTASY COMICS! Tune in to this episode to get an exclusive code and score 10% off your entire purchase!: &lt;a href="http://www.strangercomics.com/"&gt;http://www.strangercomics.com/&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">5700d2e9-ed20-480e-93c0-a713b39a38da</guid>
-      <enclosure url="https://traffic.libsyn.com/secure/syfysistas/sfs504.mp3?dest-id=2634533" length="74734836" type="audio/mpeg"/>
-      <pubDate>Fri, 07 Mar 2025 08:00:00 +0000</pubDate>
-      <itunes:author>SyFy Sistas</itunes:author>
-      <itunes:image href="https://static.libsyn.com/p/assets/6/b/f/4/6bf4daf9bd9998e016c3140a3186d450/sfs504-20250306-9wqbmtxtme.jpg"/>
-      <itunes:duration>01:28:30</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:season>5</itunes:season>
-      <itunes:episode>4</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
