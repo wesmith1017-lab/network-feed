@@ -12,7 +12,7 @@
       <link>https://www.trekgeeks.com</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2026 19:41:44 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 21:03:58 +0000</lastBuildDate>
     <itunes:author>Trek Geeks Podcast Network</itunes:author>
     <itunes:category text="TV &amp; Film"/>
     <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
@@ -21,6 +21,21 @@
       <itunes:name>Trek Geeks Podcast Network</itunes:name>
       <itunes:email>podcast@trekgeeks.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Get Me Doug Jones</title>
+      <link>https://trekgeeks.libsyn.com/get-me-doug-jones</link>
+      <description>&lt;p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"&gt; This week on Trek Geeks, we're peeling back the layers of prosthetics to sit down with a true cinematic legend. Star Trek: Discovery's Saru himself, Doug Jones, joins the show alongside Executive Producer Derek Maki to discuss their upcoming documentary, "Get Me Doug Jones" — a film that chronicles the incredible career of a man who has spent decades bringing film and television's most iconic creatures to life while remaining one of the industry's most humble (and huggable) figures.&lt;/p&gt; &lt;p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"&gt; The documentary is far more than a highlight reel of silicone and spirit gum; it's an intimate exploration of the man under the mask. From his early days as a mime to his transformative, award-winning work in The Shape of Water, Pan's Labyrinth, and Hellboy, Derek Maki and his team capture the physical discipline and emotional vulnerability required to dominate the genre. We discuss the creative process behind the film, the challenge of condensing such a prolific career into a single narrative, and why Doug's story is essentially the heart of modern creature effects.&lt;/p&gt; &lt;p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"&gt; We get the inside scoop on the production, the footage being unearthed for the project, and what it's like for Doug to finally step out from behind the makeup for a retrospective this personal — complete with plenty of behind-the-scenes stories and the usual brand of banter.&lt;/p&gt; &lt;p class="font-claude-response-body break-words whitespace-normal leading-[1.7]"&gt; Grab a drink and join the conversation. Whether you're a fan of Saru, the Silver Surfer, or just high-quality documentary filmmaking, this is an episode you won't want to miss.&lt;/p&gt;</description>
+      <guid isPermaLink="false">ee241be7-1120-49ae-b6e3-b761b4d10e51</guid>
+      <enclosure url="https://traffic.libsyn.com/secure/trekgeeks/tg338.mp3?dest-id=242244" length="92447904" type="audio/mpeg"/>
+      <pubDate>Fri, 15 May 2026 20:07:00 +0000</pubDate>
+      <itunes:author>Trek Geeks: A Star Trek Podcast</itunes:author>
+      <itunes:image href="https://static.libsyn.com/p/assets/5/0/c/9/50c93efce09ccea6d959afa2a1bf1c87/tg338-20260515-sgjcuzs5pb.jpg"/>
+      <itunes:duration>01:04:03</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>338</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>Project Hail Mary</title>
       <link>https://podcasters.spotify.com/pod/show/bigscifipodcast/episodes/Project-Hail-Mary-e3jd56i</link>
@@ -1503,21 +1518,6 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:season>1</itunes:season>
       <itunes:episode>8</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>Nana Visitor &amp; Open a Channel</title>
-      <link>https://trekgeeks.libsyn.com/nana-visitor-open-a-channel</link>
-      <description>&lt;p&gt;This week on &lt;em&gt;Trek Geeks&lt;/em&gt;, we're bringing you a special episode featuring the audio from &lt;em&gt;Thursday Night Geeks&lt;/em&gt;, presented by FanSets! Hosts Bill and Dan sit down with the incredible Nana Visitor—best known as Major Kira Nerys on &lt;em&gt;Star Trek: Deep Space Nine&lt;/em&gt;—for an insightful conversation about her new book, &lt;em&gt;Open a Channel: A Woman's Trek&lt;/em&gt;.&lt;/p&gt; &lt;p&gt;In this engaging discussion, Nana shares the inspiration behind her book, which highlights the stories of women who have shaped &lt;em&gt;Star Trek&lt;/em&gt;, both on-screen and behind the scenes. She reflects on her own experiences, the groundbreaking women she interviewed, and the impact of female representation in the franchise.&lt;/p&gt; &lt;p&gt;Join us as we celebrate &lt;em&gt;Star Trek&lt;/em&gt;'s trailblazing women and the powerful voices that have paved the way for future generations. Whether you're a longtime &lt;em&gt;DS9&lt;/em&gt; fan or passionate about &lt;em&gt;Star Trek&lt;/em&gt;'s legacy, this is an episode you won't want to miss!&lt;/p&gt;</description>
-      <guid isPermaLink="false">ae112902-eff3-4f4b-8b4d-d9a34d7b9130</guid>
-      <enclosure url="https://traffic.libsyn.com/secure/trekgeeks/tg320.mp3?dest-id=242244" length="81752879" type="audio/mpeg"/>
-      <pubDate>Mon, 17 Mar 2025 07:00:00 +0000</pubDate>
-      <itunes:author>Trek Geeks: A Star Trek Podcast</itunes:author>
-      <itunes:image href="https://static.libsyn.com/p/assets/d/2/2/8/d2289142f5c2694216c3140a3186d450/TG320-20250316-606tjpixb6.jpg"/>
-      <itunes:duration>01:36:51</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:season>1</itunes:season>
-      <itunes:episode>320</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
