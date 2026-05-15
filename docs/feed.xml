@@ -12,7 +12,7 @@
       <link>https://www.trekgeeks.com</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2026 04:52:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 10:26:19 +0000</lastBuildDate>
     <itunes:author>Trek Geeks Podcast Network</itunes:author>
     <itunes:category text="TV &amp; Film"/>
     <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
@@ -21,6 +21,21 @@
       <itunes:name>Trek Geeks Podcast Network</itunes:name>
       <itunes:email>podcast@trekgeeks.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Project Hail Mary</title>
+      <link>https://podcasters.spotify.com/pod/show/bigscifipodcast/episodes/Project-Hail-Mary-e3jd56i</link>
+      <description>&lt;p&gt;The Smash-hit Film &lt;/p&gt;&lt;p&gt;This week on The BIG Sci‑Fi Podcast, we’re diving head‑first into the cosmic thrill ride that is Project Hail Mary!&lt;/p&gt;&lt;p&gt;The crew breaks down the film’s biggest surprises, its bold adaptation choices, and why this story of survival, science, and unexpected friendship is hitting audiences so hard.&lt;br /&gt;If you loved the book, loved the movie, or just love great sci‑fi, this is the conversation you don’t want to miss.&lt;/p&gt;&lt;p&gt;Strap in, fire up the engines, and join us for an interstellar deep‑dive on The BIG Sci‑Fi Podcast!&lt;/p&gt;</description>
+      <guid isPermaLink="false">ff489c3f-8097-4b1a-a837-5524d3528227</guid>
+      <enclosure url="https://anchor.fm/s/e3caae34/podcast/play/120017554/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-15%2F7c0697c8-17f0-166b-422a-ba534d423e6d.mp3" length="90865415" type="audio/mpeg"/>
+      <pubDate>Fri, 15 May 2026 07:00:00 +0000</pubDate>
+      <itunes:author>The BIG Sci-Fi Podcast</itunes:author>
+      <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/38117109/38117109-1778812251480-292716130dc.jpg"/>
+      <itunes:duration>00:53:46</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:season>10</itunes:season>
+      <itunes:episode>15</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>Harry Kim Has No Filter</title>
       <link>https://syfysistas.libsyn.com/harry-kim-has-no-filter</link>
@@ -1503,21 +1518,6 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:season>1</itunes:season>
       <itunes:episode>320</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>Prepping For Launch and Space Flight</title>
-      <link>https://podcasters.spotify.com/pod/show/planetzero/episodes/Prepping-For-Launch-and-Space-Flight-e300r7k</link>
-      <description>&lt;p&gt;&lt;strong&gt;Chapters 10-11&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Commander Gates and the rescue team prepare the shuttle for departure and launch towards the massive alien object, hoping to find a way inside to retrieve their missing crewmate.&lt;/p&gt;&lt;p&gt;This podcast is presented by the Trek Geeks Podcast Network. Listen to all of their amazing podcasts at: &lt;a href="http://trekgeeks.com"&gt;trekgeeks.com&lt;/a&gt;&lt;/p&gt;&lt;p&gt;This podcast is a sister podcast of The BIG Sci-Fi Podcast! Check out Adeena, Brian, Cris, and Steve as they talk about all things science fiction at: &lt;a href="http://trekgeeks.com/bigscifipodcast"&gt;trekgeeks.com/bigscifipodcast&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The BIG Sci-Fi Podcast is also available everywhere you listen to your favorite podcasts!&lt;/p&gt;&lt;p&gt;Planet Zero is an original science fiction story written, performed, and produced by Brian Donahue.&lt;/p&gt;&lt;p&gt;Check out Brian's historical fiction book, a novella called The Darkness and the Light. It's available on Amazon in paperback and for Kindle: &lt;a href="https://a.co/d/dmPz9Ze"&gt;https://a.co/d/dmPz9Ze&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Check out Brian's original music at: &lt;a href="http://reverbnation.com/briantdonahue"&gt;reverbnation.com/briantdonahue&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Music heard in this episode is available for free at: &lt;a href="http://pixabay.com"&gt;pixabay.com&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">1cb3e468-5a9d-4733-93c7-76c9f21a306b</guid>
-      <enclosure url="https://anchor.fm/s/fd59f580/podcast/play/99691188/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-11%2Ff58ebdc5-24c0-23d4-1b48-f2fe2c9fd681.mp3" length="17157555" type="audio/mpeg"/>
-      <pubDate>Tue, 11 Mar 2025 12:51:36 +0000</pubDate>
-      <itunes:author>Planet Zero: An Original Science Fiction Story</itunes:author>
-      <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42405312/42405312-1741697480452-c33d9eaee762c.jpg"/>
-      <itunes:duration>00:23:13</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:season>1</itunes:season>
-      <itunes:episode>7</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
