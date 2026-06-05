@@ -12,7 +12,7 @@
       <link>https://www.trekgeeks.com</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jun 2026 09:54:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 12:40:16 +0000</lastBuildDate>
     <itunes:author>Trek Geeks Podcast Network</itunes:author>
     <itunes:category text="TV &amp; Film"/>
     <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
@@ -34,21 +34,6 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:season>6</itunes:season>
       <itunes:episode>11</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>Rod Roddenberry</title>
-      <link>https://podcasters.spotify.com/pod/show/bigscifipodcast/episodes/Rod-Roddenberry-e3kaeet</link>
-      <description>&lt;p&gt;Season Finale! &lt;/p&gt;&lt;p&gt;Our season finale is here, and it’s one we’re incredibly proud of. This week on The BIG Sci‑Fi Podcast, we sit down with Rod Roddenberry for a heartfelt and revealing conversation.&lt;/p&gt;&lt;p&gt;Rod shares personal stories about his childhood surrounded by Trek, reflects on his mother Majel Barrett’s legacy, and gives us his honest take on the current state of the franchise. We even dive into his thoughts on the Project Hail Mary film.&lt;/p&gt;&lt;p&gt;This episode isn’t just for Trek fans—it’s for anyone who loves hearing authentic stories from people who helped shape the worlds we love.&lt;/p&gt;&lt;p&gt;🖖 Join us for a powerful and intimate season finale.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">350236c4-dbd4-4a44-8b9d-88d5ea442634</guid>
-      <enclosure url="https://anchor.fm/s/e3caae34/podcast/play/120977309/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-4%2F155aaeb9-51d2-c5f5-c5ba-e365773a089e.mp3" length="94992148" type="audio/mpeg"/>
-      <pubDate>Fri, 05 Jun 2026 07:00:00 +0000</pubDate>
-      <itunes:author>The BIG Sci-Fi Podcast</itunes:author>
-      <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/38117109/38117109-1780532448924-7560d11358ba7.jpg"/>
-      <itunes:duration>00:56:14</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:season>10</itunes:season>
-      <itunes:episode>18</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
@@ -1518,6 +1503,21 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:season>8</itunes:season>
       <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Trekking Toward Hope w/Jonathan Frakes, Armin Shimerman, John Billingsley, Kitty Swink, &amp; Juan Carlos Coto</title>
+      <link>https://trekgeeks.libsyn.com/trekking-toward-hope-wjonathan-frakes-armin-shimerman-john-billingsley-kitty-swink-juan-carlos-coto</link>
+      <description>&lt;p&gt;Trek Against Pancreatic Cancer&lt;/p&gt; &lt;p&gt;In this very special episode of Trek Geeks, we're proud to present the audio from a powerful livestream event originally aired on &lt;a href="https://youtube.com/trekgeeks" rel="noopener" target="_blank"&gt;Thursday Night Geeks&lt;/a&gt;. Featuring an incredible lineup of guests: Jonathan Frakes, John Billingsley, Kitty Swink, Armin Shimerman, and Juan Carlos Coto--this heartfelt conversation centers around their support for the Pancreatic Cancer Action Network (PanCAN) and the upcoming PurpleStride event on April 26, 2025.&lt;/p&gt; &lt;p&gt;You'll hear deeply personal stories from our guests, including Kitty Swink's remarkable journey as a pancreatic cancer survivor and Armin Shimerman's reflections on being by her side through the fight. John Billingsley and Jonathan Frakes speak passionately about their ongoing advocacy and the urgent need to fund research, while Juan Carlos Coto shares a moving tribute to his brother, the late Manny Coto, and his family's connection to this cause.&lt;/p&gt; &lt;p&gt;Whether you missed the livestream or want to hear these inspiring voices again, this audio edition brings their messages directly to your ears. It's a powerful blend of Trek family, personal resilience, and a unified call to action.&lt;/p&gt; &lt;p&gt;There's still time to make a difference. PurpleStride happens on April 26, and your support can help fund critical research, raise awareness, and offer hope to those impacted by this devastating disease. Visit &lt;a href="https://trekagainstpancreaticcancer.com" rel="noopener" target="_blank"&gt;TrekAgainstPancreaticCancer.com&lt;/a&gt; to donate, join a team, or learn more about how you can stride with a purpose.&lt;/p&gt;</description>
+      <guid isPermaLink="false">1f09aee4-20c5-428e-b5cf-2cbae14f37c5</guid>
+      <enclosure url="https://traffic.libsyn.com/secure/trekgeeks/tg321.mp3?dest-id=242244" length="50742234" type="audio/mpeg"/>
+      <pubDate>Wed, 23 Apr 2025 16:03:00 +0000</pubDate>
+      <itunes:author>Trek Geeks: A Star Trek Podcast</itunes:author>
+      <itunes:image href="https://static.libsyn.com/p/assets/0/6/c/2/06c2ebfbb86fe5f4d959afa2a1bf1c87/tg321-20250423-xrqshzoymy.jpg"/>
+      <itunes:duration>01:00:06</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>321</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
