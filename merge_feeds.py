@@ -20,6 +20,7 @@ FEEDS = [
     "https://anchor.fm/s/fd59f580/podcast/rss",
     "https://anchor.fm/s/e3caae34/podcast/rss",
     "https://anchor.fm/s/109773ecc/podcast/rss",
+    "https://anchor.fm/s/113d7f58c/podcast/rss",
 ]
 
 NETWORK_TITLE = "Trek Geeks Podcast Network"
