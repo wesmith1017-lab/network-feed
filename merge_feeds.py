@@ -21,6 +21,9 @@ FEEDS = [
     "https://anchor.fm/s/e3caae34/podcast/rss",
     "https://anchor.fm/s/109773ecc/podcast/rss",
     "https://anchor.fm/s/113d7f58c/podcast/rss",
+    "https://anchor.fm/s/10dd8986c/podcast/rss",
+    "https://secretfriendsunite.com/code-47-star-trek-talk?format=rss",
+    "https://rss.buzzsprout.com/2302178.rss",
 ]
 
 NETWORK_TITLE = "Trek Geeks Podcast Network"
