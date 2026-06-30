@@ -167,6 +167,9 @@ def build_feed():
                 if "image" in tag.get("term", "").lower():
                     ep_image = tag.get("scheme", "") or tag.get("label", "")
                     break
+        # feedgen requires image URLs to end in .jpg/.jpeg/.png
+        if ep_image and not re.search(r'\.(jpg|jpeg|png)(\?|$)', ep_image, re.IGNORECASE):
+            ep_image = ""
         fe.podcast.itunes_image(ep_image or NETWORK_IMAGE)
 
         episode_type = entry.get("itunes_episodetype", "full")
