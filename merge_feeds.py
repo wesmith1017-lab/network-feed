@@ -14,20 +14,28 @@ import re
 from email.utils import parsedate_to_datetime
 
 # ── CONFIG — edit these ───────────────────────────────────────────────────────
+
+# ADD NEW SHOWS HERE — paste the RSS feed URL as a new string in this list.
+# Each URL should be the direct RSS/Atom feed link for the podcast.
+# Format: "https://example.com/feed/rss"  ← must be a valid RSS feed URL
 FEEDS = [
-    "https://feeds.libsyn.com/324119/rss",
-    "https://feeds.libsyn.com/62071/rss",
-    "https://anchor.fm/s/fd59f580/podcast/rss",
-    "https://anchor.fm/s/e3caae34/podcast/rss",
-    "https://anchor.fm/s/109773ecc/podcast/rss",
-    "https://anchor.fm/s/113d7f58c/podcast/rss",
-    "https://anchor.fm/s/10dd8986c/podcast/rss",
-    "https://secretfriendsunite.com/code-47-star-trek-talk?format=rss",
-    "https://rss.buzzsprout.com/2302178.rss",
+    "https://feeds.libsyn.com/324119/rss",           # Trek Geeks
+    "https://feeds.libsyn.com/62071/rss",             # The BIG Sci-Fi Podcast
+    "https://anchor.fm/s/fd59f580/podcast/rss",       # SyFy Sistas
+    "https://anchor.fm/s/e3caae34/podcast/rss",       # Planet Zero
+    "https://anchor.fm/s/109773ecc/podcast/rss",      # Space Crime Continuum
+    "https://anchor.fm/s/113d7f58c/podcast/rss",      # We Are Starfleet
+    "https://anchor.fm/s/10dd8986c/podcast/rss",      # The Brian Donahue Podcast
+    "https://secretfriendsunite.com/code-47-star-trek-talk?format=rss",  # Code 47
+    "https://rss.buzzsprout.com/2302178.rss",         # Crusher Convo
+    # ↑ Add new show URLs above this line
 ]
 
+# UPDATE NETWORK_TITLE if the network is ever rebranded.
 NETWORK_TITLE = "Trek Geeks Podcast Network"
+# UPDATE NETWORK_LINK if the main website URL ever changes.
 NETWORK_LINK  = "https://www.trekgeeks.com"
+# UPDATE # UPDATE NETWORK_DESCRIPTION if the network's about text needs refreshing.
 NETWORK_DESCRIPTION = (
     "Trek Geeks Podcast Network is home to a collection of fan-driven podcasts "
     "celebrating Star Trek, science fiction, and the fandoms that bring us together. "
@@ -40,12 +48,14 @@ NETWORK_DESCRIPTION = (
     "that inspire us, the Trek Geeks Podcast Network has something for you."
 )
 
+# UPDATE NETWORK_IMAGE if the network artwork file is replaced (must be a .jpg or .png URL).
 NETWORK_IMAGE    = "https://wesmith1017-lab.github.io/network-feed/artwork.jpg"
 NETWORK_FEED_URL = "https://wesmith1017-lab.github.io/network-feed/feed.xml"
 NETWORK_EMAIL    = "podcast@trekgeeks.com"
 NETWORK_AUTHOR   = "Trek Geeks Podcast Network"
 NETWORK_LANGUAGE = "en-us"
 NETWORK_EXPLICIT = "no"
+# UPDATE MAX_EPISODES to control how many total episodes appear in the merged feed.
 MAX_EPISODES     = 100
 
 OUTPUT_PATH = "docs/feed.xml"
