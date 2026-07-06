@@ -12,7 +12,7 @@
       <link>https://www.trekgeeks.com</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jul 2026 20:00:30 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 22:14:29 +0000</lastBuildDate>
     <itunes:author>Trek Geeks Podcast Network</itunes:author>
     <itunes:category text="TV &amp; Film"/>
     <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
@@ -21,6 +21,38 @@
       <itunes:name>Trek Geeks Podcast Network</itunes:name>
       <itunes:email>podcast@trekgeeks.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>E176: A Raging Ball of Traumatic Bitterness</title>
+      <link>https://secretfriendsunite.com/code-47-star-trek-talk/c47e176</link>
+      <description>Chris from THE TRANSPORTER ROOM Podcast joins us as Faith of the Heart reigns supreme on RANDOM ‘SODE, landing on STAR TREK ENTERPRISE’S third Season episode “Similitude.” Then we catch up with Jean-Luc and talk about the “Best &amp; Worst Top Fives” of STAR TREK: PICARD. 
+
+Find THE TRANSPORTER ROOM on YouTube and all socials!
+
+Use the discount code TREKGEEKS for 10% of your entire order at FanSets.com. Spend more than $30 and automatically get free shipping in the U.S.!!!
+
+Drop us a line at secretfriendsunite@gmail.com and let us know what you’re enjoying in the ‘world of nerd’ and we might feature your comments on the show! 
+
+Find us online at secretfriendsunite.com for ALL of our episodes, additional content and bios of our SFU Network stars!
+
+Hear Peter on STARSHIP EXCELSIOR at https://starshipexcelsior.com/episodes/#s6
+
+Subscribe to our podcasts on Apple and Spotify
+
+Hit us up on Threads, Instagram &amp; BlueSky: @Secret.Friends.Unite, @Secretfriendsunite, @TheCeeThree
+
+Check out our LinkTree for all the ways to reach us
+
+Get all your SECRET FRIENDS UNITE merch at our Redbubble store! Click here</description>
+      <guid isPermaLink="false">5f2b5a9c8862a31a00703f95:604bcfa0bd08ec607cdda657:6a49554e5875c345578f3df3</guid>
+      <enclosure url="https://pdcn.co/e/static1.squarespace.com/static/5f2b5a9c8862a31a00703f95/t/6a49556ba6b2453ac8c9d2a2/1783190902552/176.mp3" length="85991664" type="audio/mpeg"/>
+      <pubDate>Mon, 06 Jul 2026 22:00:46 +0000</pubDate>
+      <itunes:author>Code 47 - Star Trek Talk</itunes:author>
+      <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
+      <itunes:duration>1:36:39</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>176</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>Ep: 089  "Dreaming Big" | Conversation with Martin Roth</title>
       <link>https://www.trekgeeks.com</link>
@@ -1768,21 +1800,6 @@ Get all your SECRET FRIENDS UNITE merch at our Redbubble store! Click here</desc
       <itunes:explicit>no</itunes:explicit>
       <itunes:season>4</itunes:season>
       <itunes:episode>2</itunes:episode>
-      <itunes:episodeType>bonus</itunes:episodeType>
-    </item>
-    <item>
-      <title>BONUS: Starfleet Academy "Kids These Days" - Back to School!</title>
-      <link>https://www.trekgeeks.com</link>
-      <description>&lt;p&gt;&lt;a href="https://www.buzzsprout.com/2302178/fan_mail/new" target="_blank"&gt;Communications Open&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Join me as I break down the series premiere of Starfleet Academy! Will it earn top marks, or simply fly by? Tune in to find out!&lt;/p&gt;&lt;p&gt;NOTE: These episodes are from a live broadcast that you can view on my YouTube channel, @CrusherConvo. You can also find me on Instagram, Threads, BlueSky, and TikTok! I am not affiliated with Gates McFadden or her team. This is a fanbase podcast that admires and enjoys her work! &lt;br /&gt;&lt;br /&gt;Website: crusherconvo.com&lt;br /&gt;TeePublic: teepublic.com/user/crusher-convo&lt;br /&gt;Patreon: patreon.com/CrusherConvo&lt;br /&gt;Buy me a Coffee: buymeacoffee.com/crusherconvo&lt;/p&gt;&lt;p&gt;&lt;a href="https://buymeacoffee.com/crusherconvo" rel="payment"&gt;Support the show&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">Buzzsprout-18534196</guid>
-      <enclosure url="https://www.buzzsprout.com/2302178/episodes/18534196-bonus-starfleet-academy-kids-these-days-back-to-school.mp3" length="19999529" type="audio/mpeg"/>
-      <pubDate>Mon, 19 Jan 2026 16:00:00 +0000</pubDate>
-      <itunes:author>Crusher Convo Podcast</itunes:author>
-      <itunes:image href="https://storage.buzzsprout.com/1zoowvm03jjilfiymxkz9u3cbgdg?.jpg"/>
-      <itunes:duration>1662</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:season>4</itunes:season>
-      <itunes:episode>1</itunes:episode>
       <itunes:episodeType>bonus</itunes:episodeType>
     </item>
   </channel>
