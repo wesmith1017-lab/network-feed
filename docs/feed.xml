@@ -12,7 +12,7 @@
       <link>https://www.trekgeeks.com</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jul 2026 08:31:49 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 12:24:50 +0000</lastBuildDate>
     <itunes:author>Trek Geeks Podcast Network</itunes:author>
     <itunes:category text="TV &amp; Film"/>
     <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
@@ -21,6 +21,21 @@
       <itunes:name>Trek Geeks Podcast Network</itunes:name>
       <itunes:email>podcast@trekgeeks.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>New Season, New Adventures</title>
+      <link>https://podcasters.spotify.com/pod/show/brian17/episodes/New-Season--New-Adventures-e3mgv8j</link>
+      <description>&lt;p&gt;&lt;strong&gt;Working through adversity &lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Season 2 debuts with Pastor Brian sharing a story from his recent family vacation. You don't want to miss how he brings Star Trek into the adventure and all the mishaps that happened along the way as he traveled through New York, Maine, and Massachusetts. &lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;This podcast is a proud part of the Trek Geeks Podcast Network! &lt;/p&gt;&lt;p&gt;Check out all the great podcasts here: https://trekgeeks.com/&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;This podcast is a production of Trek and Jesus.&lt;/p&gt;&lt;p&gt;Follow us on Facebook: https://www.facebook.com/groups/trekandjesus&lt;/p&gt;&lt;p&gt;Follow us on Instagram: https://www.instagram.com/trekandjesus/&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Become a Patreon supporter of The Brian Donahue Podcast:&lt;/p&gt;&lt;p&gt;https://www.patreon.com/cw/thebriandonahuepodcast&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Listen to Brian's original music: https://www.reverbnation.com/briantdonahue&lt;/p&gt;</description>
+      <guid isPermaLink="false">d6179ad3-e7a8-432a-b1b4-f8ae71e5dda4</guid>
+      <enclosure url="https://anchor.fm/s/10dd8986c/podcast/play/123288275/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-24%2F01a4b105-0690-4792-85cd-c41bb7ad36b4.mp3" length="58462341" type="audio/mpeg"/>
+      <pubDate>Mon, 27 Jul 2026 07:00:00 +0000</pubDate>
+      <itunes:author>The Brian Donahue Podcast</itunes:author>
+      <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/45172659/45172659-1784931433029-dcff2644f9369.jpg"/>
+      <itunes:duration>00:34:29</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>Ep: 091 The Last One Standing | Review Star Trek: Enterprise "Cease Fire"</title>
       <link>https://www.trekgeeks.com</link>
@@ -1746,21 +1761,6 @@ Get all your SECRET FRIENDS UNITE merch at our Redbubble store! Click here</desc
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>166</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>BONUS: Starfleet Academy "Vox in Excelso" - The Klingon Way</title>
-      <link>https://www.trekgeeks.com</link>
-      <description>&lt;p&gt;&lt;a href="https://www.buzzsprout.com/2302178/fan_mail/new" target="_blank"&gt;Communications Open&lt;/a&gt;&lt;/p&gt;&lt;p&gt;In this emotionally impacted episode, Jay-Den faces conflict between his birthright and his true self, as the Klingon Empire faces the brink of extinction.&lt;/p&gt;&lt;p&gt;NOTE: These episodes are from a live broadcast that you can view on my YouTube channel, @CrusherConvo. You can also find me on Instagram, Threads, BlueSky, and TikTok! I am not affiliated with Gates McFadden or her team. This is a fanbase podcast that admires and enjoys her work! &lt;br /&gt;&lt;br /&gt;Website: crusherconvo.com&lt;br /&gt;TeePublic: teepublic.com/user/crusher-convo&lt;br /&gt;Patreon: patreon.com/CrusherConvo&lt;br /&gt;Buy me a Coffee: buymeacoffee.com/crusherconvo&lt;/p&gt;&lt;p&gt;&lt;a href="https://buymeacoffee.com/crusherconvo" rel="payment"&gt;Support the show&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">Buzzsprout-18606384</guid>
-      <enclosure url="https://www.buzzsprout.com/2302178/episodes/18606384-bonus-starfleet-academy-vox-in-excelso-the-klingon-way.mp3" length="15988876" type="audio/mpeg"/>
-      <pubDate>Sun, 01 Feb 2026 22:00:00 +0000</pubDate>
-      <itunes:author>Crusher Convo Podcast</itunes:author>
-      <itunes:image href="https://storage.buzzsprout.com/y9xi5an8p9py82ebizm8g3kczojc?.jpg"/>
-      <itunes:duration>1328</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:season>4</itunes:season>
-      <itunes:episode>4</itunes:episode>
-      <itunes:episodeType>bonus</itunes:episodeType>
     </item>
   </channel>
 </rss>
