@@ -12,7 +12,7 @@
       <link>https://www.trekgeeks.com</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Aug 2026 03:45:27 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 07:28:27 +0000</lastBuildDate>
     <itunes:author>Trek Geeks Podcast Network</itunes:author>
     <itunes:category text="TV &amp; Film"/>
     <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
@@ -21,6 +21,21 @@
       <itunes:name>Trek Geeks Podcast Network</itunes:name>
       <itunes:email>podcast@trekgeeks.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>React &amp; Review: Strange New World's "Valles Marineris"</title>
+      <link>https://www.trekgeeks.com</link>
+      <description>&lt;p&gt;&lt;a target="_blank" href="https://www.buzzsprout.com/2302178/fan_mail/new"&gt;Communications Open&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The wait is over! Strange New Worlds Season 4 has arrived! Here&amp;apos;s my review of the premiere, &amp;quot;Valles Marineris&amp;quot;&lt;/p&gt;&lt;p&gt;NOTE: These episodes are from a live broadcast that you can view on my YouTube channel, @CrusherConvo. You can also find me on Instagram, Threads, BlueSky, and TikTok! I am not affiliated with Gates McFadden or her team. This is a fan-base podcast that admires and enjoys her work!&lt;/p&gt;&lt;p&gt;Website: CrusherConvo.com&lt;br/&gt;TeePublic: teepublic.com/user/crusher-convo&lt;br/&gt;Patreon: patreon.com/CrusherConvo&lt;br/&gt;Buy me a Coffee: buymeacoffee.com/crusherconvo &lt;br/&gt;Trek Geeks Network: Trekgeeks.com&lt;br/&gt;Fansets: Fansets.com (Code: &amp;quot;TrekGeeks&amp;quot; for 10% off)&lt;br/&gt;Cherry Tree: MyCherryTree.com (Code: &amp;quot;CrusherConvo6&amp;quot; for 6% off)&lt;/p&gt;&lt;p&gt;&lt;a rel="payment" href="https://buymeacoffee.com/crusherconvo"&gt;Support the show&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">Buzzsprout-19589513</guid>
+      <enclosure url="https://www.buzzsprout.com/2302178/episodes/19589513-react-review-strange-new-world-s-valles-marineris.mp3" length="5376914" type="audio/mpeg"/>
+      <pubDate>Mon, 03 Aug 2026 06:00:00 +0000</pubDate>
+      <itunes:author>Crusher Convo Podcast</itunes:author>
+      <itunes:image href="https://storage.buzzsprout.com/m0bnk4n1ywsrbaxm36sboz9n29c1?.jpg"/>
+      <itunes:duration>445</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:season>4</itunes:season>
+      <itunes:episode>28</itunes:episode>
+      <itunes:episodeType>bonus</itunes:episodeType>
+    </item>
     <item>
       <title>Ep: 092  Where it all Began | Star Trek's "Where no man has gone Before" Review</title>
       <link>https://www.trekgeeks.com</link>
@@ -1716,20 +1731,6 @@ Get all your SECRET FRIENDS UNITE merch at our Redbubble store! Click here</desc
       <itunes:season>4</itunes:season>
       <itunes:episode>5</itunes:episode>
       <itunes:episodeType>bonus</itunes:episodeType>
-    </item>
-    <item>
-      <title>Starfleet Academy Premieres &amp; Exploring Trek Locations</title>
-      <link>https://trekgeeks.libsyn.com/starfleet-academy-premieres-exploring-trek-locations</link>
-      <description>&lt;p&gt;Visiting the Past and Discovering the Future&lt;/p&gt; &lt;p&gt;We kick off our 2026 in a big way as we celebrate the 60th Anniversary Year of Star Trek with a show built for fans who love both the history and the future of the franchise. This premiere is all about connection. Connection to the real places where Star Trek was made and connection to where the universe is headed next.&lt;/p&gt; &lt;p&gt;First up, we're joined by Larry "Dr. Trek" Nemecek and Teras Cassidy from Geek Nation Tours to talk about Exploring Trek shooting locations. From iconic West Coast filming sites to the unforgettable landscapes of Nevada's Valley of Fire, we'll dive into what makes these locations so special and why standing where Star Trek history was made hits differently in an anniversary year. If you've ever wanted to walk in the footsteps of your favorite crews, this conversation is for you.&lt;/p&gt; &lt;p&gt;Then we shift gears to the future with a spoiler-light discussion of the premiere of Star Trek: Starfleet Academy. We'll share our impressions of the first two episodes, what immediately grabbed us, and where the series feels like it's boldly going. From tone to characters to themes, we'll break down what's working and what we're excited to see develop as the season unfolds.&lt;/p&gt; &lt;p&gt;It's the perfect way to launch a new season of Trek Geeks: Thursday Night Geeks. Part celebration, part exploration, and part thoughtful fandom chat with friends. Whether you're planning your next Trek adventure or just settling in to watch the next chapter of Star Trek begin, this Season Two premiere sets the tone for what's ahead.&lt;/p&gt;</description>
-      <guid isPermaLink="false">b0eb2890-8c67-4090-a7b7-0eb25f4a1731</guid>
-      <enclosure url="https://traffic.libsyn.com/secure/trekgeeks/tg332.mp3?dest-id=242244" length="97878495" type="audio/mpeg"/>
-      <pubDate>Sat, 07 Feb 2026 17:08:00 +0000</pubDate>
-      <itunes:author>Trek Geeks: A Star Trek Podcast</itunes:author>
-      <itunes:image href="https://static.libsyn.com/p/assets/c/6/7/f/c67f1de91bf32ebcd959afa2a1bf1c87/tg332-20260207-trjgyqe0d1.jpg"/>
-      <itunes:duration>01:07:40</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>332</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
 </rss>
