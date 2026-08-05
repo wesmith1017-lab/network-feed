@@ -12,7 +12,7 @@
       <link>https://www.trekgeeks.com</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Aug 2026 22:13:35 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 00:04:27 +0000</lastBuildDate>
     <itunes:author>Trek Geeks Podcast Network</itunes:author>
     <itunes:category text="TV &amp; Film"/>
     <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
@@ -34,20 +34,6 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:season>411</itunes:season>
       <itunes:episode>2</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>Justice</title>
-      <link>https://podcasters.spotify.com/pod/show/spacecrimecontinuum/episodes/Justice-e3mr1m7</link>
-      <description>&lt;p&gt;&lt;strong&gt;The one with the scantily clad Edo&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Welcome back to the podcast friends, Haley and I are back with another episode of Space Crime Continuum, the podcast that does what many have done before and talks Trek. We're so excited to do an episode that features Haley's dream phone caller, Wesley Crusher. This week we take a look at the injustice within the episode from season 1 called Justice. Wesley is busted for being the bad boy we all know he is, but does the punishment fit the crime? Not exactly. &lt;/p&gt;&lt;p&gt;And as we do, we move from the hilarity of season one TNG into a more serious discussion where I share the sad and tragic story of Otto Warmbier. &lt;/p&gt;&lt;p&gt;We hope you enjoy this episode and we hope you all travel safely to Las Vegas for the 60th anniversary of Trek celebration at STLV. Find me on Bluesky @vanislandsara.bsky.social or on instagram @VanislandCrafts &lt;/p&gt;&lt;p&gt;Music by &amp;lt;a href=&amp;quot;https://pixabay.com/users/luis_humanoide-12661853/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=music&amp;amp;utm_content=320323&amp;quot;&lt;/p&gt;&lt;p&gt;&amp;gt;Luis Humanoide&amp;lt;/a&amp;gt; from &amp;lt;a href=&amp;quot;https://pixabay.com//?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=music&amp;amp;utm_content=320323&amp;quot;&amp;gt;Pixabay&amp;lt;/a&amp;gt;&lt;/p&gt;&lt;p&gt;pixabay.com&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;https://pixabay.com//?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=music&amp;amp;utm_content=320323&lt;/p&gt;</description>
-      <guid isPermaLink="false">cb7bb46d-8e65-44e9-8129-bd83967bcda6</guid>
-      <enclosure url="https://anchor.fm/s/109773ecc/podcast/play/123618439/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-1%2Fd5eaeca4-d368-0dfc-f3a3-63a238c29ba9.mp3" length="28758083" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Aug 2026 07:00:00 +0000</pubDate>
-      <itunes:author>Space Crime Continuum</itunes:author>
-      <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44437771/44437771-1785591816638-b26484bc3607a.jpg"/>
-      <itunes:duration>00:47:34</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>8</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
@@ -1737,6 +1723,21 @@ Get all your SECRET FRIENDS UNITE merch at our Redbubble store! Click here</desc
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>167</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>BONUS: Starfleet Academy "Come, Let's Away" - Sacrifices and Sonic Screams</title>
+      <link>https://www.trekgeeks.com</link>
+      <description>&lt;p&gt;&lt;a href="https://www.buzzsprout.com/2302178/fan_mail/new" target="_blank"&gt;Communications Open&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Tragedy strikes the schools when the cadets are taken hostage during a routine exercise. With time running out, Starfleet must turn to their worst enemy for help.&lt;/p&gt;&lt;p&gt;NOTE: These episodes are from a live broadcast that you can view on my YouTube channel, @CrusherConvo. You can also find me on Instagram, Threads, BlueSky, and TikTok! I am not affiliated with Gates McFadden or her team. This is a fanbase podcast that admires and enjoys her work! &lt;br /&gt;&lt;br /&gt;Website: crusherconvo.com&lt;br /&gt;TeePublic: teepublic.com/user/crusher-convo&lt;br /&gt;Patreon: patreon.com/CrusherConvo&lt;br /&gt;Buy me a Coffee: buymeacoffee.com/crusherconvo&lt;/p&gt;&lt;p&gt;&lt;a href="https://buymeacoffee.com/crusherconvo" rel="payment"&gt;Support the show&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">Buzzsprout-18684884</guid>
+      <enclosure url="https://www.buzzsprout.com/2302178/episodes/18684884-bonus-starfleet-academy-come-let-s-away-sacrifices-and-sonic-screams.mp3" length="20236760" type="audio/mpeg"/>
+      <pubDate>Sun, 15 Feb 2026 01:00:00 +0000</pubDate>
+      <itunes:author>Crusher Convo Podcast</itunes:author>
+      <itunes:image href="https://storage.buzzsprout.com/uo8hip7juwrurkcl1cldy4gap130?.jpg"/>
+      <itunes:duration>1683</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:season>4</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <itunes:episodeType>bonus</itunes:episodeType>
     </item>
   </channel>
 </rss>
