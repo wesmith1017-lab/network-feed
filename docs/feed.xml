@@ -2053,3 +2053,526 @@ Buy me a Coffee: buymeacoffee.com/crusherconvoSupport the show</description>
     </item>
   </channel>
 </rss>
+[1mdiff --git a/merge_feeds.py b/merge_feeds.py[m
+[1mindex b71ddd8..0547ebc 100644[m
+[1m--- a/merge_feeds.py[m
+[1m+++ b/merge_feeds.py[m
+[36m@@ -1,41 +1,44 @@[m
+ #!/usr/bin/env python3[m
+ """[m
+ Trek Geeks Podcast Network - RSS Feed Merger[m
+[31m-Fetches all show feeds, merges episodes sorted by date,[m
+[31m-and outputs a single valid podcast RSS feed to docs/feed.xml.[m
+[32m+[m
+[32m+[m[32mFetches multiple podcast RSS/Atom feeds, merges their episodes,[m
+[32m+[m[32mremoves duplicates, sorts them by publication date, and writes[m
+[32m+[m[32mone combined podcast RSS feed to docs/feed.xml.[m
+ """[m
+ [m
+[31m-import feedparser[m
+[31m-from feedgen.feed import FeedGenerator[m
+ import datetime[m
+[31m-import pytz[m
+[32m+[m[32mimport html[m
+ import os[m
+ import re[m
+ from email.utils import parsedate_to_datetime[m
+ [m
+[31m-# ── CONFIG — edit these ───────────────────────────────────────────────────────[m
+[32m+[m[32mimport feedparser[m
+[32m+[m[32mimport pytz[m
+[32m+[m[32mfrom feedgen.feed import FeedGenerator[m
+ [m
+[31m-# ADD NEW SHOWS HERE — paste the RSS feed URL as a new string in this list.[m
+[31m-# Each URL should be the direct RSS/Atom feed link for the podcast.[m
+[31m-# Format: "https://example.com/feed/rss"  ← must be a valid RSS feed URL[m
+[32m+[m
+[32m+[m[32m# =============================================================================[m
+[32m+[m[32m# CONFIGURATION[m
+[32m+[m[32m# =============================================================================[m
+[32m+[m
+[32m+[m[32m# Add new podcast RSS/Atom feed URLs here.[m
+ FEEDS = [[m
+     "https://feeds.libsyn.com/324119/rss",           # Trek Geeks[m
+[31m-    "https://feeds.libsyn.com/62071/rss",             # The BIG Sci-Fi Podcast[m
+[31m-    "https://anchor.fm/s/fd59f580/podcast/rss",       # SyFy Sistas[m
+[31m-    "https://anchor.fm/s/e3caae34/podcast/rss",       # Planet Zero[m
+[31m-    "https://anchor.fm/s/109773ecc/podcast/rss",      # Space Crime Continuum[m
+[31m-    "https://anchor.fm/s/113d7f58c/podcast/rss",      # We Are Starfleet[m
+[31m-    "https://anchor.fm/s/10dd8986c/podcast/rss",      # The Brian Donahue Podcast[m
+[32m+[m[32m    "https://feeds.libsyn.com/62071/rss",            # The BIG Sci-Fi Podcast[m
+[32m+[m[32m    "https://anchor.fm/s/fd59f580/podcast/rss",      # SyFy Sistas[m
+[32m+[m[32m    "https://anchor.fm/s/e3caae34/podcast/rss",      # Planet Zero[m
+[32m+[m[32m    "https://anchor.fm/s/109773ecc/podcast/rss",     # Space Crime Continuum[m
+[32m+[m[32m    "https://anchor.fm/s/113d7f58c/podcast/rss",     # We Are Starfleet[m
+[32m+[m[32m    "https://anchor.fm/s/10dd8986c/podcast/rss",     # The Brian Donahue Podcast[m
+     "https://secretfriendsunite.com/code-47-star-trek-talk?format=rss",  # Code 47[m
+[31m-    "https://rss.buzzsprout.com/2302178.rss",         # Crusher Convo[m
+[31m-    # ↑ Add new show URLs above this line[m
+[32m+[m[32m    "https://rss.buzzsprout.com/2302178.rss",        # Crusher Convo[m
+ ][m
+ [m
+[31m-# UPDATE NETWORK_TITLE if the network is ever rebranded.[m
+ NETWORK_TITLE = "Trek Geeks Podcast Network"[m
+[31m-# UPDATE NETWORK_LINK if the main website URL ever changes.[m
+[31m-NETWORK_LINK  = "https://www.trekgeeks.com"[m
+[31m-# UPDATE # UPDATE NETWORK_DESCRIPTION if the network's about text needs refreshing.[m
+[32m+[m
+[32m+[m[32mNETWORK_LINK = "https://www.trekgeeks.com"[m
+[32m+[m
+ NETWORK_DESCRIPTION = ([m
+     "Trek Geeks Podcast Network is home to a collection of fan-driven podcasts "[m
+     "celebrating Star Trek, science fiction, and the fandoms that bring us together. "[m
+[36m@@ -48,167 +51,719 @@[m [mNETWORK_DESCRIPTION = ([m
+     "that inspire us, the Trek Geeks Podcast Network has something for you."[m
+ )[m
+ [m
+[31m-# UPDATE NETWORK_IMAGE if the network artwork file is replaced (must be a .jpg or .png URL).[m
+[31m-NETWORK_IMAGE    = "https://wesmith1017-lab.github.io/network-feed/artwork.jpg"[m
+[31m-NETWORK_FEED_URL = "https://wesmith1017-lab.github.io/network-feed/feed.xml"[m
+[31m-NETWORK_EMAIL    = "podcast@trekgeeks.com"[m
+[31m-NETWORK_AUTHOR   = "Trek Geeks Podcast Network"[m
+[32m+[m[32mNETWORK_IMAGE = ([m
+[32m+[m[32m    "https://wesmith1017-lab.github.io/network-feed/artwork.jpg"[m
+[32m+[m[32m)[m
+[32m+[m
+[32m+[m[32mNETWORK_FEED_URL = ([m
+[32m+[m[32m    "https://wesmith1017-lab.github.io/network-feed/feed.xml"[m
+[32m+[m[32m)[m
+[32m+[m
+[32m+[m[32mNETWORK_EMAIL = "podcast@trekgeeks.com"[m
+[32m+[m
+[32m+[m[32mNETWORK_AUTHOR = "Trek Geeks Podcast Network"[m
+[32m+[m
+ NETWORK_LANGUAGE = "en-us"[m
+[32m+[m
+ NETWORK_EXPLICIT = "no"[m
+[31m-# UPDATE MAX_EPISODES to control how many total episodes appear in the merged feed.[m
+[31m-MAX_EPISODES     = 100[m
+[32m+[m
+[32m+[m[32mMAX_EPISODES = 100[m
+ [m
+ OUTPUT_PATH = "docs/feed.xml"[m
+[31m-# ─────────────────────────────────────────────────────────────────────────────[m
+ [m
+ [m
+[32m+[m[32m# =============================================================================[m
+[32m+[m[32m# HELPERS[m
+[32m+[m[32m# =============================================================================[m
+[32m+[m
+ def parse_date(entry):[m
+[31m-    """Return a timezone-aware datetime for sorting. Falls back to epoch."""[m
+[31m-    if hasattr(entry, "published_parsed") and entry.published_parsed:[m
+[32m+[m[32m    """[m
+[32m+[m[32m    Return a timezone-aware UTC datetime for an RSS entry.[m
+[32m+[m
+[32m+[m[32m    Uses feedparser's parsed date first and falls back to[m
+[32m+[m[32m    the raw published/updated date when necessary.[m
+[32m+[m[32m    """[m
+[32m+[m
+[32m+[m[32m    published_parsed = entry.get("published_parsed")[m
+[32m+[m
+[32m+[m[32m    if published_parsed:[m
+[32m+[m[32m        try:[m
+[32m+[m[32m            return datetime.datetime([m
+[32m+[m[32m                *published_parsed[:6],[m
+[32m+[m[32m                tzinfo=pytz.utc,[m
+[32m+[m[32m            )[m
+[32m+[m[32m        except (TypeError, ValueError):[m
+[32m+[m[32m            pass[m
+[32m+[m
+[32m+[m[32m    updated_parsed = entry.get("updated_parsed")[m
+[32m+[m
+[32m+[m[32m    if updated_parsed:[m
+         try:[m
+[31m-            return datetime.datetime(*entry.published_parsed[:6], tzinfo=pytz.utc)[m
+[31m-        except Exception:[m
+[32m+[m[32m            return datetime.datetime([m
+[32m+[m[32m                *updated_parsed[:6],[m
+[32m+[m[32m                tzinfo=pytz.utc,[m
+[32m+[m[32m            )[m
+[32m+[m[32m        except (TypeError, ValueError):[m
+             pass[m
+[31m-    raw = entry.get("published") or entry.get("updated") or ""[m
+[31m-    if raw:[m
+[32m+[m
+[32m+[m[32m    raw_date = ([m
+[32m+[m[32m        entry.get("published")[m
+[32m+[m[32m        or entry.get("updated")[m
+[32m+[m[32m        or entry.get("pubDate")[m
+[32m+[m[32m        or ""[m
+[32m+[m[32m    )[m
+[32m+[m
+[32m+[m[32m    if raw_date:[m
+         try:[m
+[31m-            return parsedate_to_datetime(raw).astimezone(pytz.utc)[m
+[31m-        except Exception:[m
+[32m+[m[32m            parsed = parsedate_to_datetime(raw_date)[m
+[32m+[m
+[32m+[m[32m            if parsed.tzinfo is None:[m
+[32m+[m[32m                parsed = parsed.replace(tzinfo=pytz.utc)[m
+[32m+[m
+[32m+[m[32m            return parsed.astimezone(pytz.utc)[m
+[32m+[m
+[32m+[m[32m        except (TypeError, ValueError, OverflowError):[m
+             pass[m
+[31m-    return datetime.datetime(1970, 1, 1, tzinfo=pytz.utc)[m
+ [m
+[32m+[m[32m    return datetime.datetime([m
+[32m+[m[32m        1970,[m
+[32m+[m[32m        1,[m
+[32m+[m[32m        1,[m
+[32m+[m[32m        tzinfo=pytz.utc,[m
+[32m+[m[32m    )[m
+[32m+[m
+[32m+[m
+[32m+[m[32mdef clean_text(value):[m
+[32m+[m[32m    """[m
+[32m+[m[32m    Convert HTML entities and remove unnecessary HTML tags.[m
+[32m+[m[32m    """[m
+[32m+[m
+[32m+[m[32m    if not value:[m
+[32m+[m[32m        return ""[m
+[32m+[m
+[32m+[m[32m    value = html.unescape(str(value))[m
+[32m+[m
+[32m+[m[32m    value = re.sub([m
+[32m+[m[32m        r"<br\s*/?>",[m
+[32m+[m[32m        "\n",[m
+[32m+[m[32m        value,[m
+[32m+[m[32m        flags=re.IGNORECASE,[m
+[32m+[m[32m    )[m
+[32m+[m
+[32m+[m[32m    value = re.sub([m
+[32m+[m[32m        r"<[^>]+>",[m
+[32m+[m[32m        "",[m
+[32m+[m[32m        value,[m
+[32m+[m[32m    )[m
+[32m+[m
+[32m+[m[32m    return value.strip()[m
+[32m+[m
+[32m+[m
+[32m+[m[32mdef get_description(entry):[m
+[32m+[m[32m    """[m
+[32m+[m[32m    Get the best available episode description.[m
+[32m+[m[32m    """[m
+[32m+[m
+[32m+[m[32m    content = entry.get("content", [])[m
+[32m+[m
+[32m+[m[32m    if content:[m
+[32m+[m[32m        for item in content:[m
+[32m+[m[32m            value = item.get("value")[m
+[32m+[m
+[32m+[m[32m            if value:[m
+[32m+[m[32m                return clean_text(value)[m
+[32m+[m
+[32m+[m[32m    for field in ([m
+[32m+[m[32m        "summary",[m
+[32m+[m[32m        "description",[m
+[32m+[m[32m        "subtitle",[m
+[32m+[m[32m    ):[m
+[32m+[m[32m        value = entry.get(field)[m
+[32m+[m
+[32m+[m[32m        if value:[m
+[32m+[m[32m            return clean_text(value)[m
+[32m+[m
+[32m+[m[32m    return ""[m
+[32m+[m
+[32m+[m
+[32m+[m[32mdef get_episode_image(entry):[m
+[32m+[m[32m    """[m
+[32m+[m[32m    Try to find episode artwork from common RSS/iTunes locations.[m
+[32m+[m[32m    """[m
+[32m+[m
+[32m+[m[32m    image = entry.get("itunes_image")[m
+[32m+[m
+[32m+[m[32m    if image:[m
+[32m+[m[32m        if isinstance(image, dict):[m
+[32m+[m[32m            href = image.get("href")[m
+[32m+[m
+[32m+[m[32m            if href:[m
+[32m+[m[32m                return href[m
+[32m+[m
+[32m+[m[32m        elif isinstance(image, str):[m
+[32m+[m[32m            return image[m
+[32m+[m
+[32m+[m[32m    image = entry.get("image")[m
+[32m+[m
+[32m+[m[32m    if image:[m
+[32m+[m[32m        if isinstance(image, dict):[m
+[32m+[m[32m            href = image.get("href")[m
+[32m+[m
+[32m+[m[32m            if href:[m
+[32m+[m[32m                return href[m
+[32m+[m
+[32m+[m[32m        elif isinstance(image, str):[m
+[32m+[m[32m            return image[m
+[32m+[m
+[32m+[m[32m    for tag in entry.get("tags", []):[m
+[32m+[m[32m        term = str(tag.get("term", "")).lower()[m
+[32m+[m
+[32m+[m[32m        if "image" in term:[m
+[32m+[m[32m            scheme = tag.get("scheme")[m
+[32m+[m
+[32m+[m[32m            if scheme:[m
+[32m+[m[32m                return scheme[m
+[32m+[m
+[32m+[m[32m            label = tag.get("label")[m
+[32m+[m
+[32m+[m[32m            if label:[m
+[32m+[m[32m                return label[m
+[32m+[m
+[32m+[m[32m    return NETWORK_IMAGE[m
+[32m+[m
+[32m+[m
+[32m+[m[32mdef get_enclosure(entry):[m
+[32m+[m[32m    """[m
+[32m+[m[32m    Return the first valid audio enclosure, if available.[m
+[32m+[m[32m    """[m
+[32m+[m
+[32m+[m[32m    enclosures = entry.get("enclosures", [])[m
+[32m+[m
+[32m+[m[32m    for enclosure in enclosures:[m
+[32m+[m[32m        url = ([m
+[32m+[m[32m            enclosure.get("href")[m
+[32m+[m[32m            or enclosure.get("url")[m
+[32m+[m[32m            or ""[m
+[32m+[m[32m        )[m
+[32m+[m
+[32m+[m[32m        if not url:[m
+[32m+[m[32m            continue[m
+[32m+[m
+[32m+[m[32m        return {[m
+[32m+[m[32m            "url": url,[m
+[32m+[m[32m            "length": str(enclosure.get("length") or "0"),[m
+[32m+[m[32m            "type": enclosure.get("type") or "audio/mpeg",[m
+[32m+[m[32m        }[m
+[32m+[m
+[32m+[m[32m    return None[m
+[32m+[m
+[32m+[m
+[32m+[m[32mdef get_guid(entry):[m
+[32m+[m[32m    """[m
+[32m+[m[32m    Return a stable GUID for an episode.[m
+[32m+[m[32m    """[m
+[32m+[m
+[32m+[m[32m    guid = ([m
+[32m+[m[32m        entry.get("id")[m
+[32m+[m[32m        or entry.get("guid")[m
+[32m+[m[32m        or entry.get("link")[m
+[32m+[m[32m    )[m
+[32m+[m
+[32m+[m[32m    if guid:[m
+[32m+[m[32m        return str(guid).strip()[m
+[32m+[m
+[32m+[m[32m    title = str(entry.get("title") or "").strip()[m
+[32m+[m
+[32m+[m[32m    if title:[m
+[32m+[m[32m        return title[m
+[32m+[m
+[32m+[m[32m    return ""[m
+[32m+[m
+[32m+[m
+[32m+[m[32mdef get_episode_author(entry, show_title):[m
+[32m+[m[32m    """[m
+[32m+[m[32m    Prefer the source show's title as the episode author.[m
+[32m+[m[32m    """[m
+[32m+[m
+[32m+[m[32m    return ([m
+[32m+[m[32m        show_title[m
+[32m+[m[32m        or entry.get("itunes_author")[m
+[32m+[m[32m        or entry.get("author")[m
+[32m+[m[32m        or NETWORK_AUTHOR[m
+[32m+[m[32m    )[m
+[32m+[m
+[32m+[m
+[32m+[m[32mdef get_explicit_value(entry):[m
+[32m+[m[32m    """[m
+[32m+[m[32m    Normalize iTunes explicit values to yes/no/clean.[m
+[32m+[m[32m    """[m
+[32m+[m
+[32m+[m[32m    raw_value = str([m
+[32m+[m[32m        entry.get("itunes_explicit")[m
+[32m+[m[32m        or NETWORK_EXPLICIT[m
+[32m+[m[32m    ).lower().strip()[m
+[32m+[m
+[32m+[m[32m    if raw_value in ([m
+[32m+[m[32m        "yes",[m
+[32m+[m[32m        "true",[m
+[32m+[m[32m        "explicit",[m
+[32m+[m[32m    ):[m
+[32m+[m[32m        return "yes"[m
+[32m+[m
+[32m+[m[32m    if raw_value == "clean":[m
+[32m+[m[32m        return "clean"[m
+[32m+[m
+[32m+[m[32m    return "no"[m
+[32m+[m
+[32m+[m
+[32m+[m[32m# =============================================================================[m
+[32m+[m[32m# FETCH FEEDS[m
+[32m+[m[32m# =============================================================================[m
+[32m+[m
+[32m+[m[32mdef fetch_feeds():[m
+[32m+[m[32m    """[m
+[32m+[m[32m    Fetch all configured podcast feeds.[m
+[32m+[m
+[32m+[m[32m    Returns:[m
+[32m+[m[32m        list: All collected episode entries.[m
+[32m+[m[32m        int: Number of successfully processed feeds.[m
+[32m+[m[32m        list: Failed feed URLs.[m
+[32m+[m[32m    """[m
+ [m
+[31m-def build_feed():[m
+     all_entries = [][m
+ [m
+[32m+[m[32m    successful_feeds = 0[m
+[32m+[m[32m    failed_feeds = [][m
+[32m+[m
+[32m+[m[32m    print("=" * 70)[m
+[32m+[m[32m    print("Fetching podcast feeds")[m
+[32m+[m[32m    print("=" * 70)[m
+[32m+[m
+     for url in FEEDS:[m
+[31m-        print(f"Fetching: {url}")[m
+[31m-        parsed = feedparser.parse(url, request_headers={[m
+[31m-            "Cache-Control": "no-cache",[m
+[31m-            "Pragma": "no-cache"[m
+[31m-        })[m
+[32m+[m[32m        print(f"\nFetching: {url}")[m
+[32m+[m
+[32m+[m[32m        try:[m
+[32m+[m[32m            parsed = feedparser.parse([m
+[32m+[m[32m                url,[m
+[32m+[m[32m                request_headers={[m
+[32m+[m[32m                    "Cache-Control": "no-cache",[m
+[32m+[m[32m                    "Pragma": "no-cache",[m
+[32m+[m[32m                    "User-Agent": ([m
+[32m+[m[32m                        "TrekGeeksPodcastNetwork/1.0 "[m
+[32m+[m[32m                        "(RSS Feed Merger)"[m
+[32m+[m[32m                    ),[m
+[32m+[m[32m                },[m
+[32m+[m[32m            )[m
+[32m+[m
+[32m+[m[32m        except Exception as exc:[m
+[32m+[m[32m            print(f"  ERROR: {exc}")[m
+[32m+[m[32m            failed_feeds.append(url)[m
+[32m+[m[32m            continue[m
+ [m
+         if parsed.bozo and not parsed.entries:[m
+[31m-            print(f"  WARNING: Could not parse {url} — skipping")[m
+[32m+[m[32m            print("  WARNING: Feed could not be parsed.")[m
+[32m+[m[32m            failed_feeds.append(url)[m
+             continue[m
+ [m
+[31m-        show_title = parsed.feed.get("title", "Unknown Show")[m
+[31m-        print(f"  Found {len(parsed.entries)} episodes from: {show_title}")[m
+[32m+[m[32m        show_title = ([m
+[32m+[m[32m            parsed.feed.get("title")[m
+[32m+[m[32m            or "Unknown Show"[m
+[32m+[m[32m        )[m
+[32m+[m
+[32m+[m[32m        print([m
+[32m+[m[32m            f"  Show: {show_title}"[m
+[32m+[m[32m        )[m
+[32m+[m
+[32m+[m[32m        print([m
+[32m+[m[32m            f"  Episodes found: {len(parsed.entries)}"[m
+[32m+[m[32m        )[m
+[32m+[m
+[32m+[m[32m        successful_feeds += 1[m
+ [m
+         for entry in parsed.entries:[m
+[32m+[m[32m            title = str([m
+[32m+[m[32m                entry.get("title") or ""[m
+[32m+[m[32m            ).strip()[m
+[32m+[m
+[32m+[m[32m            guid = get_guid(entry)[m
+[32m+[m
+[32m+[m[32m            if not title and not guid:[m
+[32m+[m[32m                print("  Skipping episode without title/GUID.")[m
+[32m+[m[32m                continue[m
+[32m+[m
+             entry["_show_title"] = show_title[m
+[32m+[m
+             all_entries.append(entry)[m
+ [m
+[31m-    # Sort newest first, cap at MAX_EPISODES[m
+[31m-    all_entries.sort(key=parse_date, reverse=True)[m
+[32m+[m[32m    return ([m
+[32m+[m[32m        all_entries,[m
+[32m+[m[32m        successful_feeds,[m
+[32m+[m[32m        failed_feeds,[m
+[32m+[m[32m    )[m
+[32m+[m
+[32m+[m
+[32m+[m[32m# =============================================================================[m
+[32m+[m[32m# REMOVE DUPLICATES[m
+[32m+[m[32m# =============================================================================[m
+[32m+[m
+[32m+[m[32mdef remove_duplicates(entries):[m
+[32m+[m[32m    """[m
+[32m+[m[32m    Remove duplicate episodes using GUID/link/title fallback.[m
+[32m+[m[32m    """[m
+[32m+[m
+[32m+[m[32m    unique_entries = [][m
+[32m+[m[32m    seen = set()[m
+[32m+[m[32m    duplicate_count = 0[m
+[32m+[m
+[32m+[m[32m    for entry in entries:[m
+[32m+[m[32m        guid = get_guid(entry)[m
+[32m+[m
+[32m+[m[32m        if not guid:[m
+[32m+[m[32m            continue[m
+[32m+[m
+[32m+[m[32m        if guid in seen:[m
+[32m+[m[32m            duplicate_count += 1[m
+[32m+[m[32m            continue[m
+[32m+[m
+[32m+[m[32m        seen.add(guid)[m
+[32m+[m[32m        unique_entries.append(entry)[m
+[32m+[m
+[32m+[m[32m    return unique_entries, duplicate_count[m
+[32m+[m
+[32m+[m
+[32m+[m[32m# =============================================================================[m
+[32m+[m[32m# BUILD RSS FEED[m
+[32m+[m[32m# =============================================================================[m
+[32m+[m
+[32m+[m[32mdef build_feed():[m
+[32m+[m[32m    """[m
+[32m+[m[32m    Fetch, merge, clean, sort, and write the network RSS feed.[m
+[32m+[m[32m    """[m
+[32m+[m
+[32m+[m[32m    ([m
+[32m+[m[32m        all_entries,[m
+[32m+[m[32m        successful_feeds,[m
+[32m+[m[32m        failed_feeds,[m
+[32m+[m[32m    ) = fetch_feeds()[m
+[32m+[m
+[32m+[m[32m    print("\n" + "=" * 70)[m
+[32m+[m[32m    print("Processing episodes")[m
+[32m+[m[32m    print("=" * 70)[m
+[32m+[m
+[32m+[m[32m    print([m
+[32m+[m[32m        f"Total collected episodes: {len(all_entries)}"[m
+[32m+[m[32m    )[m
+[32m+[m
+[32m+[m[32m    all_entries, duplicate_count = remove_duplicates([m
+[32m+[m[32m        all_entries[m
+[32m+[m[32m    )[m
+[32m+[m
+[32m+[m[32m    print([m
+[32m+[m[32m        f"Duplicate episodes removed: {duplicate_count}"[m
+[32m+[m[32m    )[m
+[32m+[m
+[32m+[m[32m    # Newest episodes first.[m
+[32m+[m[32m    all_entries.sort([m
+[32m+[m[32m        key=parse_date,[m
+[32m+[m[32m        reverse=True,[m
+[32m+[m[32m    )[m
+[32m+[m
+[32m+[m[32m    # Limit total number of episodes.[m
+     all_entries = all_entries[:MAX_EPISODES][m
+ [m
+[31m-    print(f"\nTotal e
