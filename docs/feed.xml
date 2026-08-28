@@ -12,7 +12,7 @@
       <link>https://www.trekgeeks.com</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Aug 2026 01:19:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 13:56:09 +0000</lastBuildDate>
     <itunes:author>Trek Geeks Podcast Network</itunes:author>
     <itunes:category text="TV &amp; Film"/>
     <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
@@ -21,6 +21,21 @@
       <itunes:name>Trek Geeks Podcast Network</itunes:name>
       <itunes:email>podcast@trekgeeks.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>60 Years, 60 Questions: Star Trek Hot Seat</title>
+      <link>https://syfysistas.libsyn.com/60-years-60-questions-star-trek-hot-seat</link>
+      <description>&lt;p&gt;With Derek Tyler Attico &lt;/p&gt; &lt;p&gt;The GenX Blerds came in HOT! 🔥 With Fran away, Derek jumped into the hot seat with Yvette and Tamia for 60 questions celebrating 60 years of Star Trek. The only problem? We quickly forgot this was supposed to be a HOT SEAT and started having conversations instead. We only made it through 30 questions. So yes, there will be a Part 2. A time was had. 🖖🏾 Check out Derek Tyler Attico on Soul of the Story Wednesdays on the SyFy Sistas Inc Youtube Channel: https://www.youtube.com/playlist?list=PLar8VN-OWcHVyE2ifFloYwN1lvssqiQ3W Pre-Order Star Trek Timelines at your local bookstore or https://www.penguinrandomhouse.com/books/827370/star-trek-timelines-by-derek-tyler-attico/ 🎧Subscribe and don't miss a single episode of Season 6! __________________________________________________&lt;/p&gt; &lt;p&gt;Associate Producers: Sailor Marj, Karen Dramera, Stephanie Baker &amp; Cleo Townsend Logo: Dena Massenburg Music: "Poppin off the Rip" by RAGE (YouTube Audio Library) The SyFy Sistas Podcast — named 2025 Best All-Around Star Trek Podcast by TrekMovie&lt;/p&gt; &lt;p&gt;Support us on Patreon: patreon.com/syfysistas Subscribe, Like, Share: linktr.ee/syfysistas Find us on The Trek Geeks Podcasts Network: trekgeeks.com&lt;/p&gt; &lt;p&gt;FanSets — Our pins have character. Thanks to FanSets for being the presenting sponsor of the Trek Geeks Podcasts. Use the exclusive code in this episode for 10% off: fansets.com&lt;/p&gt; &lt;p&gt; 💫The SyFy Sistas Podcast is a SyFy Sistas Inc. Production.&lt;/p&gt;</description>
+      <guid isPermaLink="false">8311c5ac-97df-4a13-a091-d689cf92a16b</guid>
+      <enclosure url="https://traffic.libsyn.com/secure/syfysistas/sfs617.mp3?dest-id=2634533" length="110253857" type="audio/mpeg"/>
+      <pubDate>Fri, 28 Aug 2026 07:00:00 +0000</pubDate>
+      <itunes:author>SyFy Sistas</itunes:author>
+      <itunes:image href="https://static.libsyn.com/p/assets/9/4/0/0/9400000e12201f3516c3140a3186d450/sfs617-20260828-cze7agj6lv.jpg"/>
+      <itunes:duration>01:16:22</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:season>6</itunes:season>
+      <itunes:episode>17</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>Strange New Worlds: Off Hour</title>
       <link>https://podcasters.spotify.com/pod/show/trek-geeks5/episodes/Strange-New-Worlds-Off-Hour-e3nuq9f</link>
@@ -1648,21 +1663,6 @@ Get all your SECRET FRIENDS UNITE merch at our Redbubble store! Click here</desc
       <itunes:season>10</itunes:season>
       <itunes:episode>6</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>BONUS: Starfleet Academy's "300th Night" - A Design Flaw</title>
-      <link>https://www.trekgeeks.com</link>
-      <description>&lt;p&gt;&lt;a href="https://www.buzzsprout.com/2302178/fan_mail/new" target="_blank"&gt;Communications Open&lt;/a&gt;&lt;/p&gt;&lt;p&gt;With SAM’s help, Caleb finally finds his mother, while the Federation discovers Nus Braka’s dangerous plan in the penultimate episode of Season 1.&lt;/p&gt;&lt;p&gt;NOTE: These episodes are from a live broadcast that you can view on my YouTube channel, @CrusherConvo. You can also find me on Instagram, Threads, BlueSky, and TikTok! I am not affiliated with Gates McFadden or her team. This is a fanbase podcast that admires and enjoys her work! &lt;br /&gt;&lt;br /&gt;Website: crusherconvo.com&lt;br /&gt;TeePublic: teepublic.com/user/crusher-convo&lt;br /&gt;Patreon: patreon.com/CrusherConvo&lt;br /&gt;Buy me a Coffee: buymeacoffee.com/crusherconvo&lt;/p&gt;&lt;p&gt;&lt;a href="https://buymeacoffee.com/crusherconvo" rel="payment"&gt;Support the show&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">Buzzsprout-18807399</guid>
-      <enclosure url="https://www.buzzsprout.com/2302178/episodes/18807399-bonus-starfleet-academy-s-300th-night-a-design-flaw.mp3" length="17834480" type="audio/mpeg"/>
-      <pubDate>Sun, 08 Mar 2026 01:00:00 +0000</pubDate>
-      <itunes:author>Crusher Convo Podcast</itunes:author>
-      <itunes:image href="https://storage.buzzsprout.com/fs4umgjnsenqrnj8l5a07d38zkn9?.jpg"/>
-      <itunes:duration>1482</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:season>4</itunes:season>
-      <itunes:episode>9</itunes:episode>
-      <itunes:episodeType>bonus</itunes:episodeType>
     </item>
   </channel>
 </rss>
