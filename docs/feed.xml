@@ -12,7 +12,7 @@
       <link>https://www.trekgeeks.com</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Sep 2026 01:02:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 07:25:29 +0000</lastBuildDate>
     <itunes:author>Trek Geeks Podcast Network</itunes:author>
     <itunes:category text="TV &amp; Film"/>
     <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
@@ -21,6 +21,21 @@
       <itunes:name>Trek Geeks Podcast Network</itunes:name>
       <itunes:email>podcast@trekgeeks.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>React &amp; Review: Strange New World's "Level-Five Transporter Accident"</title>
+      <link>https://www.trekgeeks.com</link>
+      <description>&lt;p&gt;&lt;a href="https://www.buzzsprout.com/2302178/fan_mail/new" target="_blank"&gt;Communications Open&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Everyone is a… PUPPET?! Yep! The Enterprise suffers yet another transporter accident, leaving Spock to save the crew while battling a band of troublesome Orions. It’s high-jinks, chaos, and classic Star Trek fun in this wild episode!&lt;/p&gt;&lt;p&gt;NOTE: These episodes are from a live broadcast that you can view on my YouTube channel, @CrusherConvo. You can also find me on Instagram, Threads, BlueSky, and TikTok! I am not affiliated with Gates McFadden or her team. This is a fan-base podcast that admires and enjoys her work!&lt;/p&gt;&lt;p&gt;Website: CrusherConvo.com&lt;br /&gt;TeePublic: teepublic.com/user/crusher-convo&lt;br /&gt;Patreon: patreon.com/CrusherConvo&lt;br /&gt;Buy me a Coffee: buymeacoffee.com/crusherconvo &lt;br /&gt;Trek Geeks Network: Trekgeeks.com&lt;br /&gt;Fansets: Fansets.com (Code: &amp;quot;TrekGeeks&amp;quot; for 10% off)&lt;br /&gt;Cherry Tree: MyCherryTree.com (Code: &amp;quot;CrusherConvo6&amp;quot; for 6% off)&lt;/p&gt;&lt;p&gt;&lt;a href="https://buymeacoffee.com/crusherconvo" rel="payment"&gt;Support the show&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">Buzzsprout-19725690</guid>
+      <enclosure url="https://www.buzzsprout.com/2302178/episodes/19725690-react-review-strange-new-world-s-level-five-transporter-accident.mp3" length="8170122" type="audio/mpeg"/>
+      <pubDate>Tue, 01 Sep 2026 06:00:00 +0000</pubDate>
+      <itunes:author>Crusher Convo Podcast</itunes:author>
+      <itunes:image href="https://storage.buzzsprout.com/idj83nqbzjfkfd4d36tsjflgqxys?.jpg"/>
+      <itunes:duration>677</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:season>4</itunes:season>
+      <itunes:episode>31</itunes:episode>
+      <itunes:episodeType>bonus</itunes:episodeType>
+    </item>
     <item>
       <title>E180: Not Quite A Mop, Not Quite A Puppet…</title>
       <link>https://secretfriendsunite.com/code-47-star-trek-talk/c47e180</link>
@@ -1654,21 +1669,6 @@ Get all your SECRET FRIENDS UNITE merch at our Redbubble store! Click here</desc
       <itunes:season>4</itunes:season>
       <itunes:episode>10</itunes:episode>
       <itunes:episodeType>bonus</itunes:episodeType>
-    </item>
-    <item>
-      <title>Star Trek: Into Darkness</title>
-      <link>https://podcasters.spotify.com/pod/show/bigscifipodcast/episodes/Star-Trek-Into-Darkness-e3gcq9e</link>
-      <description>&lt;p&gt;&lt;strong&gt;To Khan or Not to Khan&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;In this week’s episode of The BIG Sci‑Fi Podcast, Brian, Cris, and Steve tackle Star Trek: Into Darkness with full‑throttle enthusiasm. From its bold reinterpretation of classic Trek lore to its high‑octane action sequences, this film continues to spark debate across the fandom — and our crew is more than ready to jump into the fray.&lt;/p&gt;&lt;p&gt;We explore:&lt;br /&gt;• 	The film’s ambitious themes of vengeance, militarization, and moral compromise&lt;br /&gt;• 	Benedict Cumberbatch’s polarizing but powerful performance&lt;br /&gt;• 	The Kelvin Timeline’s unique flavor of Trek storytelling&lt;br /&gt;• 	What the movie gets spectacularly right… and what still makes us groan&lt;br /&gt;• 	How Into Darkness fits into the broader Trek legacy&lt;/p&gt;&lt;p&gt;Whether you love this movie, struggle with it, or simply enjoy hearing passionate sci‑fi fans break it all down, this episode is a must‑listen.&lt;/p&gt;&lt;p&gt;Available everywhere you enjoy your favorite podcasts — and proudly part of the Trek Geeks Podcast Network.&lt;/p&gt;</description>
-      <guid isPermaLink="false">7a5c8828-2797-49dd-a890-472f77c9675c</guid>
-      <enclosure url="https://anchor.fm/s/e3caae34/podcast/play/116860654/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-13%2Fa10e4403-3156-b0e9-e401-bad9d7bf36b9.mp3" length="118450548" type="audio/mpeg"/>
-      <pubDate>Fri, 13 Mar 2026 11:31:43 +0000</pubDate>
-      <itunes:author>The BIG Sci-Fi Podcast</itunes:author>
-      <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/38117109/38117109-1773401457641-b50e61b87248e.jpg"/>
-      <itunes:duration>01:10:11</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:season>10</itunes:season>
-      <itunes:episode>7</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
 </rss>
