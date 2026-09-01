@@ -12,7 +12,7 @@
       <link>https://www.trekgeeks.com</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Sep 2026 07:25:29 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 13:12:20 +0000</lastBuildDate>
     <itunes:author>Trek Geeks Podcast Network</itunes:author>
     <itunes:category text="TV &amp; Film"/>
     <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
@@ -21,6 +21,21 @@
       <itunes:name>Trek Geeks Podcast Network</itunes:name>
       <itunes:email>podcast@trekgeeks.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Big Bug</title>
+      <link>https://podcasters.spotify.com/pod/show/bigscifipodcast/episodes/Big-Bug-e3o35do</link>
+      <description>&lt;p&gt;&lt;strong&gt;French Sci-Fi Film &lt;/strong&gt;&lt;/p&gt;&lt;p&gt;What happens when artificial intelligence, domestic robots, and a group of very eccentric humans are all stuck under the same roof? Well… things get weird! 🤖😂&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;In the latest episode of The BIG Sci-Fi Podcast, Adeena, Cris, and Steve take a trip across the Atlantic to check out the quirky French-made Netflix sci-fi film BigBug.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;The crew digs into this colorful, bizarre, and often hilarious look at artificial intelligence, human relationships, technology, and what might happen when our robots decide they have ideas of their own.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Is BigBug a clever satire? A strange comedy? A cautionary tale about our technological future? Maybe a little bit of all three!&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Adeena, Cris, and Steve share what they loved, what left them scratching their heads, and whether this unusual sci-fi adventure deserves a place among the genre's more memorable films.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Come for the robots. Stay for the chaos.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Press play and join the conversation on The BIG Sci-Fi Podcast!&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;This podcast is a proud part of the Trek Geeks Podcast Network.&lt;/p&gt;</description>
+      <guid isPermaLink="false">f0cf84bf-7a66-4406-8d8a-156d463cd0b4</guid>
+      <enclosure url="https://anchor.fm/s/e3caae34/podcast/play/124932984/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-30%2F93f194cb-6e35-a6d6-c4c1-cf4cc14eb61a.mp3" length="76737947" type="audio/mpeg"/>
+      <pubDate>Tue, 01 Sep 2026 07:00:00 +0000</pubDate>
+      <itunes:author>The BIG Sci-Fi Podcast</itunes:author>
+      <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/38117109/38117109-1788096739673-84d7af37cdbb.jpg"/>
+      <itunes:duration>00:45:22</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:season>11</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>React &amp; Review: Strange New World's "Level-Five Transporter Accident"</title>
       <link>https://www.trekgeeks.com</link>
@@ -1654,21 +1669,6 @@ Get all your SECRET FRIENDS UNITE merch at our Redbubble store! Click here</desc
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>168</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>BONUS: Starfleet Academy S1 Finale "Rubincon" - Glue on your Shoe</title>
-      <link>https://www.trekgeeks.com</link>
-      <description>&lt;p&gt;&lt;a href="https://www.buzzsprout.com/2302178/fan_mail/new" target="_blank"&gt;Communications Open&lt;/a&gt;&lt;/p&gt;&lt;p&gt;With the Federation on the brink of destruction, the Cadets must overcome their fears and work together to stop Nus—and save Anisha and Nahla.&lt;/p&gt;&lt;p&gt;NOTE: These episodes are from a live broadcast that you can view on my YouTube channel, @CrusherConvo. You can also find me on Instagram, Threads, BlueSky, and TikTok! I am not affiliated with Gates McFadden or her team. This is a fanbase podcast that admires and enjoys her work! &lt;br /&gt;&lt;br /&gt;Website: crusherconvo.com&lt;br /&gt;TeePublic: teepublic.com/user/crusher-convo&lt;br /&gt;Patreon: patreon.com/CrusherConvo&lt;br /&gt;Buy me a Coffee: buymeacoffee.com/crusherconvo&lt;/p&gt;&lt;p&gt;&lt;a href="https://buymeacoffee.com/crusherconvo" rel="payment"&gt;Support the show&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">Buzzsprout-18845866</guid>
-      <enclosure url="https://www.buzzsprout.com/2302178/episodes/18845866-bonus-starfleet-academy-s1-finale-rubincon-glue-on-your-shoe.mp3" length="23960346" type="audio/mpeg"/>
-      <pubDate>Sat, 14 Mar 2026 17:00:00 +0000</pubDate>
-      <itunes:author>Crusher Convo Podcast</itunes:author>
-      <itunes:image href="https://storage.buzzsprout.com/bqkwmdhcy3gr8kmxr99b8ppzt2sz?.jpg"/>
-      <itunes:duration>1992</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:season>4</itunes:season>
-      <itunes:episode>10</itunes:episode>
-      <itunes:episodeType>bonus</itunes:episodeType>
     </item>
   </channel>
 </rss>
