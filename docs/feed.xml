@@ -12,7 +12,7 @@
       <link>https://www.trekgeeks.com</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Sep 2026 03:28:59 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 08:39:39 +0000</lastBuildDate>
     <itunes:author>Trek Geeks Podcast Network</itunes:author>
     <itunes:category text="TV &amp; Film"/>
     <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
@@ -21,6 +21,21 @@
       <itunes:name>Trek Geeks Podcast Network</itunes:name>
       <itunes:email>podcast@trekgeeks.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>React &amp; Review: Star Trek: Strange New World's "Off-Hour"</title>
+      <link>https://www.trekgeeks.com</link>
+      <description>&lt;p&gt;&lt;a href="https://www.buzzsprout.com/2302178/fan_mail/new" target="_blank"&gt;Communications Open&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&amp;quot;Disaster” is an understatement when the Enterprise crew has just one hour to escape a wormhole while grappling with injuries and the emotional consequences of their ordeal.&lt;/p&gt;&lt;p&gt;NOTE: These episodes are from a live broadcast that you can view on my YouTube channel, @CrusherConvo. You can also find me on Instagram, Threads, BlueSky, and TikTok! I am not affiliated with Gates McFadden or her team. This is a fan-base podcast that admires and enjoys her work!&lt;/p&gt;&lt;p&gt;Website: CrusherConvo.com&lt;br /&gt;TeePublic: teepublic.com/user/crusher-convo&lt;br /&gt;Patreon: patreon.com/CrusherConvo&lt;br /&gt;Buy me a Coffee: buymeacoffee.com/crusherconvo &lt;br /&gt;Trek Geeks Network: Trekgeeks.com&lt;br /&gt;Fansets: Fansets.com (Code: &amp;quot;TrekGeeks&amp;quot; for 10% off)&lt;br /&gt;Cherry Tree: MyCherryTree.com (Code: &amp;quot;CrusherConvo6&amp;quot; for 6% off)&lt;/p&gt;&lt;p&gt;&lt;a href="https://buymeacoffee.com/crusherconvo" rel="payment"&gt;Support the show&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">Buzzsprout-19731225</guid>
+      <enclosure url="https://www.buzzsprout.com/2302178/episodes/19731225-react-review-star-trek-strange-new-world-s-off-hour.mp3" length="8835192" type="audio/mpeg"/>
+      <pubDate>Thu, 03 Sep 2026 06:00:00 +0000</pubDate>
+      <itunes:author>Crusher Convo Podcast</itunes:author>
+      <itunes:image href="https://storage.buzzsprout.com/c3bb6w1utcihhezfc9jbx1k8eqah?.jpg"/>
+      <itunes:duration>733</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:season>4</itunes:season>
+      <itunes:episode>32</itunes:episode>
+      <itunes:episodeType>bonus</itunes:episodeType>
+    </item>
     <item>
       <title>Big Bug</title>
       <link>https://podcasters.spotify.com/pod/show/bigscifipodcast/episodes/Big-Bug-e3o35do</link>
@@ -1639,35 +1654,6 @@ Get all your SECRET FRIENDS UNITE merch at our Redbubble store! Click here</desc
       <itunes:explicit>no</itunes:explicit>
       <itunes:season>1</itunes:season>
       <itunes:episode>5</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>168: Love is a Toothbrush</title>
-      <link>https://secretfriendsunite.com/code-47-star-trek-talk/c47e168</link>
-      <description>Sean of TrekCulture is back at last as we talk about episodes 7 &amp; 8 of STARFLEET ACADEMY, then we launch to a new segment, Best &amp; Worst Top Fives, starting with STAR TREK: THE ORIGINAL SERIES.
-Find Sean &amp; TrekCulture on Instagram &amp; all the Socials!
-
-Drop us a line at secretfriendsunite@gmail.com and let us know what you’re enjoying in the ‘world of nerd’ and we might feature your comments on the show! 
-
-Find us online at secretfriendsunite.com for ALL of our episodes, additional content and bios of our SFU Network stars!
-
-Hear Peter on STARSHIP EXCELSIOR at https://starshipexcelsior.com/episodes/#s6
-
-Subscribe to our podcasts on Apple and Spotify
-
-Hit us up on Threads, Instagram &amp; BlueSky: @Secret.Friends.Unite, @Secretfriendsunite, @TheCeeThree
-
-Check out our LinkTree for all the ways to reach us
-
-Get all your SECRET FRIENDS UNITE merch at our Redbubble store! Click here</description>
-      <guid isPermaLink="false">5f2b5a9c8862a31a00703f95:604bcfa0bd08ec607cdda657:69b6f12d97555d189e7aa1a7</guid>
-      <enclosure url="https://pdcn.co/e/static1.squarespace.com/static/5f2b5a9c8862a31a00703f95/t/69b6f14b19ab314a0ca0ab7e/1774818548134/168.mp3" length="88256664" type="audio/mpeg"/>
-      <pubDate>Mon, 16 Mar 2026 22:00:37 +0000</pubDate>
-      <itunes:author>Code 47 - Star Trek Talk</itunes:author>
-      <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
-      <itunes:duration>1:43:07</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>168</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
