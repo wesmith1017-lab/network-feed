@@ -12,7 +12,7 @@
       <link>https://www.trekgeeks.com</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Sep 2026 05:37:01 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 10:29:04 +0000</lastBuildDate>
     <itunes:author>Trek Geeks Podcast Network</itunes:author>
     <itunes:category text="TV &amp; Film"/>
     <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
@@ -21,6 +21,21 @@
       <itunes:name>Trek Geeks Podcast Network</itunes:name>
       <itunes:email>podcast@trekgeeks.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Ep: 093 The Next Generation | Review Star Trek: Voyager's "Collective"</title>
+      <link>https://www.trekgeeks.com</link>
+      <description>&lt;p&gt;&lt;a href="https://www.buzzsprout.com/2302178/fan_mail/new" target="_blank"&gt;Communications Open&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The Delta Flyer crew is captured by the Borg and discovers abandoned Drone children fighting to survive. When Seven arrives, will she save them or leave them behind?&lt;/p&gt;&lt;p&gt;NOTE: These episodes are from a live broadcast that you can view on my YouTube channel, @CrusherConvo. You can also find me on Instagram, Threads, BlueSky, and TikTok! I am not affiliated with Gates McFadden or her team. This is a fan-based podcast that admires and enjoys her work!&lt;br /&gt;&lt;br /&gt;Website: CrusherConvo.com&lt;br /&gt;TeePublic: teepublic.com/user/crusher-convo&lt;br /&gt;Patreon: patreon.com/CrusherConvo&lt;br /&gt;Buy me a Coffee: buymeacoffee.com/crusherconvo &lt;br /&gt;Trek Geeks Network: Trekgeeks.com&lt;br /&gt;Fansets: Fansets.com (Code: &amp;quot;TrekGeeks&amp;quot; for 10% off)&lt;br /&gt;Cherry Tree: MyCherryTree.com (Code: &amp;quot;CrusherConvo6&amp;quot; for 6% off)&lt;/p&gt;&lt;p&gt;&lt;a href="https://buymeacoffee.com/crusherconvo" rel="payment"&gt;Support the show&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">Buzzsprout-19759309</guid>
+      <enclosure url="https://www.buzzsprout.com/2302178/episodes/19759309-ep-093-the-next-generation-review-star-trek-voyager-s-collective.mp3" length="23118248" type="audio/mpeg"/>
+      <pubDate>Sun, 06 Sep 2026 06:00:00 +0000</pubDate>
+      <itunes:author>Crusher Convo Podcast</itunes:author>
+      <itunes:image href="https://storage.buzzsprout.com/q0o1u22dxvk6ktz2g6giz0zkkege?.jpg"/>
+      <itunes:duration>1922</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:season>4</itunes:season>
+      <itunes:episode>34</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>React &amp; Review: Strange New World's "The Chronitons through the Hourglass"</title>
       <link>https://www.trekgeeks.com</link>
@@ -1637,21 +1652,6 @@ Get all your SECRET FRIENDS UNITE merch at our Redbubble store! Click here</desc
       <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/45172659/45172659-1774371898660-0afef5fcc0a9.jpg"/>
       <itunes:duration>00:28:49</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>Ep: 077 First Watch: Entering the Disco | Season 4 Premiere</title>
-      <link>https://www.trekgeeks.com</link>
-      <description>&lt;p&gt;&lt;a href="https://www.buzzsprout.com/2302178/fan_mail/new" target="_blank"&gt;Communications Open&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The time has finally come as I see Star Trek: Discovery for the first time! Here are my thoughts on the Trek that brought the franchise back!&lt;/p&gt;&lt;p&gt;Special Guest: Wes from Twin Cities Trekkies Podcast&lt;/p&gt;&lt;p&gt;NOTE: These episodes are from a live broadcast that you can view on my YouTube channel, @CrusherConvo. You can also find me on Instagram, Threads, BlueSky, and TikTok! I am not affiliated with Gates McFadden or her team. This is a fanbase podcast that admires and enjoys her work! &lt;br /&gt;&lt;br /&gt;Website: crusherconvo.com&lt;br /&gt;TeePublic: teepublic.com/user/crusher-convo&lt;br /&gt;Patreon: patreon.com/CrusherConvo&lt;br /&gt;Buy me a Coffee: buymeacoffee.com/crusherconvo&lt;/p&gt;&lt;p&gt;&lt;a href="https://buymeacoffee.com/crusherconvo" rel="payment"&gt;Support the show&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">Buzzsprout-18845916</guid>
-      <enclosure url="https://www.buzzsprout.com/2302178/episodes/18845916-ep-077-first-watch-entering-the-disco-season-4-premiere.mp3" length="38114409" type="audio/mpeg"/>
-      <pubDate>Sat, 21 Mar 2026 13:00:00 +0000</pubDate>
-      <itunes:author>Crusher Convo Podcast</itunes:author>
-      <itunes:image href="https://storage.buzzsprout.com/hoez8brmqnfvru5pd41w6kkpl4xo?.jpg"/>
-      <itunes:duration>3172</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:season>4</itunes:season>
-      <itunes:episode>11</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
