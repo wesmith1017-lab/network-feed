@@ -12,7 +12,7 @@
       <link>https://www.trekgeeks.com</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Sep 2026 05:50:22 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 10:48:20 +0000</lastBuildDate>
     <itunes:author>Trek Geeks Podcast Network</itunes:author>
     <itunes:category text="TV &amp; Film"/>
     <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
@@ -21,6 +21,35 @@
       <itunes:name>Trek Geeks Podcast Network</itunes:name>
       <itunes:email>podcast@trekgeeks.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Star Trek's 60 Greatest Moments: Episodes 50-41</title>
+      <link>https://trekgeeks.libsyn.com/star-treks-60-greatest-moments-episodes-50-41</link>
+      <description>&lt;p dir="ltr"&gt;Sixty years ago today, Star Trek premiered. The countdown rolls on.&lt;/p&gt; &lt;p dir="ltr"&gt;On this episode of Trek Geeks, Bill and Dan pick right back up with Star Trek's 60 Greatest Moments, moving into the next ten on Star Trek Day itself as we celebrate the franchise's 60th anniversary. Last time we cracked open the list with 60 through 51. This time the stakes climb a little higher and the picks start to sting a little more.&lt;/p&gt; &lt;p dir="ltr"&gt;We're counting down entries 50 through 41, ten more moments pulled from every corner of the final frontier. From the Original Series to the movies, from Next Gen to the modern era, these are the scenes that made us gasp, the lines we've been quoting for decades, and the beats that remind us why this franchise has lasted as long as it has. A few of these are locks you saw coming. Others are going to spark exactly the kind of "wait, how is that not higher?" reaction we live for.&lt;/p&gt; &lt;p dir="ltr"&gt;Half the fun of a countdown is the fight over it, and our live audience didn't hold back. If you've got your own picks, or a moment you'll never forgive us for leaving off, come find us on social and let us have it. With every installment, the list gets harder to argue about.&lt;/p&gt; &lt;p dir="ltr"&gt;Happy 60th, Star Trek. Here's to the next sixty.&lt;/p&gt; &lt;p dir="ltr"&gt;Trek Geeks: Thursday Night Geeks presented by FanSets streams live every other Thursday at 8pm ET on YouTube, Facebook, and Instagram. Live long and prosper. 🖖&lt;/p&gt;</description>
+      <guid isPermaLink="false">d5d3f21c-7810-4477-b25d-f2e260faa04e</guid>
+      <enclosure url="https://traffic.libsyn.com/secure/trekgeeks/tg342.mp3?dest-id=242244" length="90852801" type="audio/mpeg"/>
+      <pubDate>Tue, 08 Sep 2026 07:00:00 +0000</pubDate>
+      <itunes:author>Trek Geeks: A Star Trek Podcast</itunes:author>
+      <itunes:image href="https://static.libsyn.com/p/assets/f/9/5/0/f950ebb5a7012874d959afa2a1bf1c87/tg342.jpg"/>
+      <itunes:duration>01:02:57</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>342</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Jake Black</title>
+      <link>https://podcasters.spotify.com/pod/show/bigscifipodcast/episodes/Jake-Black-e3ofj6j</link>
+      <description>&lt;p&gt;The newest episode of The BIG Sci-Fi Podcast is here, and this week we’re joined by an incredibly talented writer and content creator: Jake Black!&lt;/p&gt;&lt;p&gt;Jake has spent more than 20 years writing and creating content across an amazingly diverse range of media, working with some of the biggest names and brands in pop culture—including Star Trek, WWE, Teenage Mutant Ninja Turtles, Supergirl, Smallville, The Umbrella Academy, Adventure Time, Steven Universe, and many more.&lt;/p&gt;&lt;p&gt;But this conversation isn't just about the impressive list of things Jake has written.&lt;/p&gt;&lt;p&gt;We dive into Jake's origin story—how he got started, the twists and turns that shaped his career, and how he became such a remarkably diverse writer.&lt;/p&gt;&lt;p&gt;And honestly? His story is inspiring.&lt;/p&gt;&lt;p&gt;Whether you're an aspiring writer, a creative trying to find your path, or simply someone who loves hearing how people turn their passions into a career, you're going to get a lot out of this conversation.&lt;/p&gt;&lt;p&gt;Jake's journey is a great reminder that sometimes you don't have to know exactly where you're going—you just have to keep writing, keep learning, keep creating, and be willing to say yes to opportunities along the way.&lt;/p&gt;&lt;p&gt;Listen now and discover the story behind the writer.&lt;/p&gt;&lt;p&gt;Check out Jake's work: https://www.jakeblack.com/&lt;/p&gt;&lt;p&gt;Listen to the other fantastic podcasts on the Trek Geeks Podcast Network: trekgeeks.com&lt;/p&gt;</description>
+      <guid isPermaLink="false">421f963e-cb38-4838-bbdd-4819c2b2f124</guid>
+      <enclosure url="https://anchor.fm/s/e3caae34/podcast/play/125340307/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-7%2Fa55ed1e4-0d88-6950-0e71-bb6ca4cc1014.mp3" length="98123509" type="audio/mpeg"/>
+      <pubDate>Tue, 08 Sep 2026 07:00:00 +0000</pubDate>
+      <itunes:author>The BIG Sci-Fi Podcast</itunes:author>
+      <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/38117109/38117109-1788794690553-2d3cfc780dd79.jpg"/>
+      <itunes:duration>00:58:07</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:season>11</itunes:season>
+      <itunes:episode>7</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>STLV Recap: Our Week in Vegas</title>
       <link>https://trekgeeks.libsyn.com/stlv-recap-our-week-in-vegas</link>
@@ -1623,36 +1652,6 @@ Get all your SECRET FRIENDS UNITE merch at our Redbubble store! Click here</desc
       <itunes:duration>01:25:10</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>334</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>Gersha Phillips: Designing, Awards, and Life in Black</title>
-      <link>https://syfysistas.libsyn.com/gersha-phillips-designing-awards-and-life-in-black</link>
-      <description>&lt;p&gt;Gersha Phillips&lt;/p&gt; &lt;p&gt;The SyFy Sistas sit down with award winning Gersha Phillips, the brilliant costume designer behind stage, film, and television projects, including her work in the Star Trek Universe, The Woman King, and Captain America: Brave New World.&lt;/p&gt; &lt;p&gt;In this conversation, Gersha shares the lightbulb moments that shaped her career, the politics of the Academy Awards, and her experiences navigating the world as a Black creative in entertainment today.&lt;/p&gt; &lt;p&gt;🎧Subscribe and don't miss a single episode of Season 6! &lt;/p&gt; &lt;p&gt; ______________________________________________ Gersha Phillips: 📸 Instagram: &lt;a href="https://www.instagram.com/raoulbhaneja/"&gt;https://www.instagram.com/raoulbhaneja/&lt;/a&gt; 🌐 Website: &lt;a href="https://gershaphillips.format.com/home"&gt;https://gershaphillips.format.com/home&lt;/a&gt; IMDb: &lt;a href="https://www.imdb.com/name/nm0680418/"&gt;https://www.imdb.com/name/nm0680418/&lt;/a&gt; __________________ Associate Producers: Sailor Marj, Karen Dramera, Stephanie Baker &amp; Chris Garis Logo: Dena Massenburg Music: "Poppin off the Rip" by RAGE (YouTube Audio Library)&lt;/p&gt; &lt;p&gt;The SyFy Sistas Podcast — named 2025 Best All-Around Star Trek Podcast by TrekMovie&lt;/p&gt; &lt;p&gt;Support us on Patreon: &lt;a href="http://patreon.com/syfysistas"&gt;patreon.com/syfysistas&lt;/a&gt; Subscribe, Like, Share: &lt;a href="http://linktr.ee/syfysistas"&gt;linktr.ee/syfysistas&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Find us on The Trek Geeks Podcasts Network: &lt;a href="http://trekgeeks.com"&gt;trekgeeks.com&lt;/a&gt;&lt;/p&gt; &lt;p&gt;FanSets — Our pins have character. Thanks to FanSets for being the presenting sponsor of the Trek Geeks Podcasts. Use the exclusive code in this episode for 10% off: &lt;a href="http://fansets.com"&gt;fansets.com&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">22fa24db-365f-41d1-867a-40bc60d6454d</guid>
-      <enclosure url="https://traffic.libsyn.com/secure/syfysistas/sfs606.mp3?dest-id=2634533" length="102709621" type="audio/mpeg"/>
-      <pubDate>Fri, 27 Mar 2026 07:00:00 +0000</pubDate>
-      <itunes:author>SyFy Sistas</itunes:author>
-      <itunes:image href="https://static.libsyn.com/p/assets/b/d/5/0/bd509a2acbac1e60d959afa2a1bf1c87/sfs606.jpg"/>
-      <itunes:duration>01:11:11</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:season>6</itunes:season>
-      <itunes:episode>6</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>The Adventures of Buckaroo Banzai</title>
-      <link>https://podcasters.spotify.com/pod/show/bigscifipodcast/episodes/The-Adventures-of-Buckaroo-Banzai-e3h1bdq</link>
-      <description>&lt;p&gt;&lt;strong&gt;Across the 8th Dimension&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;This week on The BIG Sci‑Fi Podcast, we strap in for one of the wildest, most delightfully eccentric rides in sci‑fi cinema as we dive deep into the 1984 cult classic The Adventures of Buckaroo Banzai Across the 8th Dimension.&lt;/p&gt;&lt;p&gt;Buckaroo Banzai isn’t just a neurosurgeon. Or a rock star. Or a particle‑physicist‑slash‑comic‑book‑hero. He’s all of the above—and somehow that’s only the beginning. From Red Lectroids to jet‑car dimension‑hopping to a cast packed with unforgettable performances, this film has carved out a unique place in sci‑fi history.&lt;br /&gt;We explore why this movie continues to inspire such passionate fandom, how its chaotic charm became part of its legacy, and what makes Buckaroo Banzai such a singular cinematic experience.&lt;/p&gt;&lt;p&gt;Whether you’re a longtime Blue Blaze Irregular or you’re stepping into the 8th Dimension for the first time, this episode is packed with fun insights, behind‑the‑scenes tidbits, and our signature BIG Sci‑Fi banter.&lt;/p&gt;&lt;p&gt;So grab your oscillation overthruster and join us as we boldly go… wherever Buckaroo Banzai takes us next.&lt;/p&gt;&lt;p&gt;This podcast is a proud part of the Trek Geeks Podcast Network and works hard to bring you great content from all over the science fiction universe. We would love to hear your feedback, suggestions, and ideas. Take a moment to send us an email at &lt;a href="mailto:thebigscifipodcast@gmail.com"&gt;thebigscifipodcast@gmail.com&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Theme music for season 10 was created with AI from the Suno platform with prompts from Brian Donahue.&lt;/p&gt;&lt;p&gt;Check our podcast out and learn more about the other great podcasts on the network by visiting &lt;a href="http://trekgeeks.com"&gt;trekgeeks.com&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;We've got the merch!  If you want BIG Sci-Fi swag, check out this link and support us by wearing us everywhere you go! &lt;a href="http://www.teepublic.com/thebigscifipodcast"&gt;www.teepublic.com/thebigscifipodcast&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Check out all of our social links in one place:&lt;br /&gt;&lt;a href="https://linktr.ee/thebigscifipodcast"&gt;https://linktr.ee/thebigscifipodcast&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Check out Cris' amazing YouTube channel for Trek content galore:&lt;br /&gt;&lt;a href="https://www.youtube.com/@yellingaboutstartrek1532"&gt;https://www.youtube.com/@yellingaboutstartrek1532&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Check out Brian's new book available at Amazon for Kindle and in paperback:&lt;br /&gt;&lt;a href="https://www.amazon.com/stores/Brian-Donahue/author/B0C3BQ93VD"&gt;https://www.amazon.com/stores/Brian-Donahue/author/B0C3BQ93VD&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Subscribe for free to Brian's Substack page where he writes original science fiction and fantasy: &lt;a href="https://bdonahue.substack.com/"&gt;https://bdonahue.substack.com/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Listen to Brian's music including his new brand new compilation album &amp;quot;My Story&amp;quot; at: &lt;a href="https://www.reverbnation.com/765591/album/330256"&gt;https://www.reverbnation.com/765591/album/330256&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Find Adeena's books here: &lt;a href="https://crazyrobot.myshopify.com/"&gt;https://crazyrobot.myshopify.com/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Follow her on Substack here: &lt;a href="https://beyondthedroid.substack.com"&gt;https://beyondthedroid.substack.com&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">27ba80bd-1f3d-42e8-94e2-75017a305d6b</guid>
-      <enclosure url="https://anchor.fm/s/e3caae34/podcast/play/117533562/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-26%2F63264be5-6836-ccf4-6825-222f56f14412.mp3" length="88630304" type="audio/mpeg"/>
-      <pubDate>Fri, 27 Mar 2026 07:00:00 +0000</pubDate>
-      <itunes:author>The BIG Sci-Fi Podcast</itunes:author>
-      <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/38117109/38117109-1774565533215-a4161255c1486.jpg"/>
-      <itunes:duration>00:52:26</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:season>10</itunes:season>
-      <itunes:episode>9</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
