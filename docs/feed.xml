@@ -12,7 +12,7 @@
       <link>https://www.trekgeeks.com</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Sep 2026 03:38:55 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 08:46:05 +0000</lastBuildDate>
     <itunes:author>Trek Geeks Podcast Network</itunes:author>
     <itunes:category text="TV &amp; Film"/>
     <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
@@ -21,6 +21,36 @@
       <itunes:name>Trek Geeks Podcast Network</itunes:name>
       <itunes:email>podcast@trekgeeks.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Ep: 094 The Center Seat II: 60 Years of Star Trek | Conversation with Brian Volk-Weiss</title>
+      <link>https://www.trekgeeks.com</link>
+      <description>&lt;p&gt;&lt;a href="https://www.buzzsprout.com/2302178/fan_mail/new" target="_blank"&gt;Communications Open&lt;/a&gt;&lt;/p&gt;&lt;p&gt;A new Center Seat has dropped just in time to celebrate 60 years of Star Trek! I sat down with Brian Volk-Weiss to get his take on everything from the most shocking moments to the absolute funniest ones. You don’t want to miss this one!&lt;/p&gt;&lt;p&gt;NOTE: These episodes are from a live broadcast that you can view on my YouTube channel, @CrusherConvo. You can also find me on Instagram, Threads, BlueSky, and TikTok! I am not affiliated with Gates McFadden or her team. This is a fan-based podcast that admires and enjoys her work!&lt;br /&gt;&lt;br /&gt;Website: CrusherConvo.com&lt;br /&gt;TeePublic: teepublic.com/user/crusher-convo&lt;br /&gt;Patreon: patreon.com/CrusherConvo&lt;br /&gt;Buy me a Coffee: buymeacoffee.com/crusherconvo &lt;br /&gt;Trek Geeks Network: Trekgeeks.com&lt;br /&gt;Fansets: Fansets.com (Code: &amp;quot;TrekGeeks&amp;quot; for 10% off)&lt;br /&gt;Cherry Tree: MyCherryTree.com (Code: &amp;quot;CrusherConvo6&amp;quot; for 6% off)&lt;/p&gt;&lt;p&gt;&lt;a href="https://buymeacoffee.com/crusherconvo" rel="payment"&gt;Support the show&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">Buzzsprout-19759354</guid>
+      <enclosure url="https://www.buzzsprout.com/2302178/episodes/19759354-ep-094-the-center-seat-ii-60-years-of-star-trek-conversation-with-brian-volk-weiss.mp3" length="20749361" type="audio/mpeg"/>
+      <pubDate>Wed, 09 Sep 2026 07:00:00 +0000</pubDate>
+      <itunes:author>Crusher Convo Podcast</itunes:author>
+      <itunes:image href="https://storage.buzzsprout.com/1ss8zpjovsia8mpkz0jpkc3xzpu9?.jpg"/>
+      <itunes:duration>1724</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:season>4</itunes:season>
+      <itunes:episode>36</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>BONUS: Unite 4 Archer | Celebrating 60 years of Star Trek</title>
+      <link>https://www.trekgeeks.com</link>
+      <description>&lt;p&gt;&lt;a href="https://www.buzzsprout.com/2302178/fan_mail/new" target="_blank"&gt;Communications Open&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Happy Star Trek Day! I had the chance to sit down with Sean from Letters 4 Legacy to talk about his exciting new project, Unite 4 Archer, the future of the franchise, and why AI still has a lot of work to do before it’s ready for the Roddenberry Future!&lt;/p&gt;&lt;p&gt;NOTE: These episodes are from a live broadcast that you can view on my YouTube channel, @CrusherConvo. You can also find me on Instagram, Threads, BlueSky, and TikTok! I am not affiliated with Gates McFadden or her team. This is a fan-base podcast that admires and enjoys her work!&lt;br /&gt;&lt;br /&gt;Website: CrusherConvo.com&lt;br /&gt;TeePublic: teepublic.com/user/crusher-convo&lt;br /&gt;Patreon: patreon.com/CrusherConvo&lt;br /&gt;Buy me a Coffee: buymeacoffee.com/crusherconvo &lt;br /&gt;Trek Geeks Network: Trekgeeks.com&lt;br /&gt;Fansets: Fansets.com (Code: &amp;quot;TrekGeeks&amp;quot; for 10% off)&lt;br /&gt;Cherry Tree: MyCherryTree.com (Code: &amp;quot;CrusherConvo6&amp;quot; for 6% off)&lt;/p&gt;&lt;p&gt;&lt;a href="https://buymeacoffee.com/crusherconvo" rel="payment"&gt;Support the show&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">Buzzsprout-19759342</guid>
+      <enclosure url="https://www.buzzsprout.com/2302178/episodes/19759342-bonus-unite-4-archer-celebrating-60-years-of-star-trek.mp3" length="36957796" type="audio/mpeg"/>
+      <pubDate>Wed, 09 Sep 2026 06:00:00 +0000</pubDate>
+      <itunes:author>Crusher Convo Podcast</itunes:author>
+      <itunes:image href="https://storage.buzzsprout.com/i8okn2fkst0kn4ek56g1xf2mmnp4?.jpg"/>
+      <itunes:duration>3074</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:season>4</itunes:season>
+      <itunes:episode>35</itunes:episode>
+      <itunes:episodeType>bonus</itunes:episodeType>
+    </item>
     <item>
       <title>Star Trek's 60 Greatest Moments: Episodes 50-41</title>
       <link>https://trekgeeks.libsyn.com/star-treks-60-greatest-moments-episodes-50-41</link>
@@ -1625,33 +1655,6 @@ Get all your SECRET FRIENDS UNITE merch at our Redbubble store! Click here</desc
       <itunes:duration>49:06</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>335</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>The 6th One: Joe Pombo and Staying Coachable</title>
-      <link>https://podcasters.spotify.com/pod/show/brian17/episodes/The-6th-One-Joe-Pombo-and-Staying-Coachable-e3h13tg</link>
-      <description>&lt;p&gt;Pastor Brian welcomes Trekkie and podcaster, Joe Pombo to share his favorite Trek episode of all-time. Brian gives a special message from his van while watching his son's first baseball practice of the season. Staying coachable is key to living a life that grows in wisdom and humility. We should never stop learning about ourselves, the world around us and, especially, God. &lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://linktr.ee/captainsquadrant" rel="ugc noopener noreferrer" target="_blank"&gt;Check out Joe and his podcast Captain's Quadrant!&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.youtube.com/@DiskDungeonPodcast" rel="ugc noopener noreferrer" target="_blank"&gt;Check out Joe's podcast Disk Dungeon!&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.youtube.com/@2bescenecom" rel="ugc noopener noreferrer" target="_blank"&gt;Check out Joe's show 2bescene!&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;The song featured at the end of this episode is called &amp;quot;Like A Family&amp;quot; and was written and performed by Brian Donahue.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reverbnation.com/briantdonahue" rel="ugc noopener noreferrer" target="_blank"&gt;Listen to more of Brian's original music!&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://patreon.com/thebriandonahuepodcast?utm_medium=unknown&amp;amp;utm_source=join_link&amp;amp;utm_campaign=creatorshare_creator&amp;amp;utm_content=copyLink" rel="ugc noopener noreferrer" target="_blank"&gt;Become a Patreon supporter of The Brian Donahue Podcast.&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.facebook.com/groups/trekandjesus" rel="ugc noopener noreferrer" target="_blank"&gt;Follow us on Facebook.&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.instagram.com/trekandjesus/" rel="ugc noopener noreferrer" target="_blank"&gt;Follow us on Instagram.&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://discord.gg/jhwHP6px5N" rel="ugc noopener noreferrer" target="_blank"&gt;Join us on Discord. &lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">8cd5404c-d63b-4440-b01e-f8e2900b7ef9</guid>
-      <enclosure url="https://anchor.fm/s/10dd8986c/podcast/play/117525872/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-26%2Fe5db1cf7-7713-344f-37c6-296fbd6de9c1.mp3" length="51816181" type="audio/mpeg"/>
-      <pubDate>Mon, 30 Mar 2026 10:00:00 +0000</pubDate>
-      <itunes:author>The Brian Donahue Podcast</itunes:author>
-      <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/45172659/45172659-1775172817148-28914b9a6e162.jpg"/>
-      <itunes:duration>00:30:50</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>Trek Talks Preview, Lego Rumors, &amp; SFA Cancelation</title>
-      <link>https://trekgeeks.libsyn.com/trek-talks-preview-lego-rumors-sfa-cancelation</link>
-      <description>&lt;p&gt;This week on Trek Geeks, Bill and Dan welcome a special guest and good friend of the show, Trek Talks co-producer Laurie Ulster from TrekMovie.com! With Trek Talks just around the corner, Laurie joins the show to preview this year's telethon, talk about what viewers can expect, and share some behind-the-scenes insight into how this incredible annual event comes together to support the Hollywood Food Coalition.&lt;/p&gt; &lt;p&gt;In addition, Bill and Dan discuss the surprising and disappointing news that &lt;em&gt;Star Trek: Starfleet Academy&lt;/em&gt; has reportedly been canceled by Paramount. What does this mean for the future of Star Trek on streaming? Is this part of a bigger shift for the franchise? The guys will share their thoughts on what we know so far and what it could mean for Trek fans moving forward.&lt;/p&gt; &lt;p&gt;But it's not all serious news. There's also a new rumor floating around about a potential new Star Trek LEGO set that could be arriving later this year, and Bill and Dan will break down what we're hearing and what they hope to see if the rumor turns out to be true.&lt;/p&gt; &lt;p&gt;It's news, rumors, Trek Talks, and plenty of laughs, so join us!&lt;/p&gt; &lt;p&gt;TREK TALKS IS SATURDAY, MARCH 28!&lt;/p&gt; &lt;p&gt;Visit &lt;a href="https://trektalks.net"&gt;https://trektalks.net&lt;/a&gt; to get all the information and to donate securely to the Hollywood Food Coalition!&lt;/p&gt;</description>
-      <guid isPermaLink="false">d1588a2b-0d80-449d-b5f9-f719aecacfd6</guid>
-      <enclosure url="https://traffic.libsyn.com/secure/trekgeeks/tg334.mp3?dest-id=242244" length="123031938" type="audio/mpeg"/>
-      <pubDate>Fri, 27 Mar 2026 21:18:00 +0000</pubDate>
-      <itunes:author>Trek Geeks: A Star Trek Podcast</itunes:author>
-      <itunes:image href="https://static.libsyn.com/p/assets/1/e/1/9/1e19b2ba9b85f19716c3140a3186d450/TG334-20260327-g98f7clmqo.jpg"/>
-      <itunes:duration>01:25:10</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>334</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
