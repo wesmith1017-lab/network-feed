@@ -12,7 +12,7 @@
       <link>https://www.trekgeeks.com</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Sep 2026 05:41:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 10:47:41 +0000</lastBuildDate>
     <itunes:author>Trek Geeks Podcast Network</itunes:author>
     <itunes:category text="TV &amp; Film"/>
     <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
@@ -21,6 +21,21 @@
       <itunes:name>Trek Geeks Podcast Network</itunes:name>
       <itunes:email>podcast@trekgeeks.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>60 Years, 60 Questions: Star Trek Hot Seat II</title>
+      <link>https://syfysistas.libsyn.com/60-years-60-questions-star-trek-hot-seat-ii</link>
+      <description>&lt;p&gt;31-60 &lt;/p&gt; &lt;p&gt;The band's back together for Part II! 💜&lt;/p&gt; &lt;p&gt;With Derek off at Dragon Con, Fran is back in the hot seat with Yvette and Tamia as we finish our 60 Years, 60 Questions: Star Trek Hot Seat with questions 31–60.&lt;/p&gt; &lt;p&gt;The Hot Seat rules are still in effect, and we actually did a pretty good job this time. Then Tamia got her second wind, the tangents started flying, and, well… you know how this goes.&lt;/p&gt; &lt;p&gt;60 questions. 60 years of Trek. Three Sistas. A time was had.🖖🏾 🎧Subscribe and don't miss a single episode of Season 6! __________________________________________________&lt;/p&gt; &lt;p&gt;Associate Producers: Sailor Marj, Karen Dramera, Stephanie Baker &amp; Cleo Townsend Logo: Dena Massenburg Music: "Poppin off the Rip" by RAGE (YouTube Audio Library) The SyFy Sistas Podcast — named 2025 Best All-Around Star Trek Podcast by TrekMovie&lt;/p&gt; &lt;p&gt;Support us on Patreon: patreon.com/syfysistas Subscribe, Like, Share: linktr.ee/syfysistas Find us on The Trek Geeks Podcasts Network: trekgeeks.com&lt;/p&gt; &lt;p&gt;FanSets — Our pins have character. Thanks to FanSets for being the presenting sponsor of the Trek Geeks Podcasts. Use the exclusive code in this episode for 10% off: fansets.com&lt;/p&gt; &lt;p&gt;💫The SyFy Sistas Podcast is a SyFy Sistas Inc. Production.&lt;/p&gt;</description>
+      <guid isPermaLink="false">9611b6e7-4362-438a-8e26-763987b103cb</guid>
+      <enclosure url="https://traffic.libsyn.com/secure/syfysistas/sfs618.mp3?dest-id=2634533" length="94721819" type="audio/mpeg"/>
+      <pubDate>Fri, 11 Sep 2026 07:00:00 +0000</pubDate>
+      <itunes:author>SyFy Sistas</itunes:author>
+      <itunes:image href="https://static.libsyn.com/p/assets/8/0/a/7/80a7ffa544577a0316c3140a3186d450/sfs618-20260911-5ssqnkx38e.jpg"/>
+      <itunes:duration>01:05:39</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:season>6</itunes:season>
+      <itunes:episode>18</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>Strange New Worlds: Orders of Magnitude</title>
       <link>https://podcasters.spotify.com/pod/show/trek-geeks5/episodes/Strange-New-Worlds-Orders-of-Magnitude-e3okbbo</link>
@@ -1624,36 +1639,6 @@ Get all your SECRET FRIENDS UNITE merch at our Redbubble store! Click here</desc
       <itunes:explicit>no</itunes:explicit>
       <itunes:season>10</itunes:season>
       <itunes:episode>93</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>169: Ruben, The Tastiest Particle</title>
-      <link>https://secretfriendsunite.com/code-47-star-trek-talk/c47e169</link>
-      <description>Ellie of TrekCulture is back at last as we wrap up Season 1 of STARFLEET ACADEMY; then it’s on to the next installment of  “Best &amp; Worst Top Fives”  with STAR TREK: THE ANIMATED SERIES.
-
-Find Ellie &amp; TrekCulture on Instagram &amp; all the Socials!
-
-Drop us a line at secretfriendsunite@gmail.com and let us know what you’re enjoying in the ‘world of nerd’ and we might feature your comments on the show! 
-
-Find us online at secretfriendsunite.com for ALL of our episodes, additional content and bios of our SFU Network stars!
-
-Hear Peter on STARSHIP EXCELSIOR at https://starshipexcelsior.com/episodes/#s6
-
-Subscribe to our podcasts on Apple and Spotify
-
-Hit us up on Threads, Instagram &amp; BlueSky: @Secret.Friends.Unite, @Secretfriendsunite, @TheCeeThree
-
-Check out our LinkTree for all the ways to reach us
-
-Get all your SECRET FRIENDS UNITE merch at our Redbubble store! Click here</description>
-      <guid isPermaLink="false">5f2b5a9c8862a31a00703f95:604bcfa0bd08ec607cdda657:69c994f4f7d10c4f9cf464cc</guid>
-      <enclosure url="https://pdcn.co/e/static1.squarespace.com/static/5f2b5a9c8862a31a00703f95/t/69c9967029277e192eb5c836/1776011507118/169.mp3" length="84279165" type="audio/mpeg"/>
-      <pubDate>Mon, 30 Mar 2026 22:00:12 +0000</pubDate>
-      <itunes:author>Code 47 - Star Trek Talk</itunes:author>
-      <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
-      <itunes:duration>1:34:21</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>169</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
