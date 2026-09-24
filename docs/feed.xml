@@ -12,7 +12,7 @@
       <link>https://www.trekgeeks.com</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Sep 2026 01:11:41 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 07:21:36 +0000</lastBuildDate>
     <itunes:author>Trek Geeks Podcast Network</itunes:author>
     <itunes:category text="TV &amp; Film"/>
     <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
@@ -21,6 +21,20 @@
       <itunes:name>Trek Geeks Podcast Network</itunes:name>
       <itunes:email>podcast@trekgeeks.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Star Trek's 60 Greatest Moments: Episodes 40-31</title>
+      <link>https://trekgeeks.libsyn.com/star-treks-60-greatest-moments-episodes-40-31</link>
+      <description>&lt;p dir="ltr"&gt;The countdown keeps climbing. This week, Bill and Dan tackle the next ten entries in Star Trek's 60 Greatest Moments, working their way through numbers 40 through 31.&lt;/p&gt; &lt;p dir="ltr"&gt;These are the scenes that earned their spot the hard way. Sixty years of television and film, thousands of hours of story, and only sixty slots to fill. Every moment in this batch had to beat out something you love, and the guys make the case for each one while second-guessing themselves in real time.&lt;/p&gt; &lt;p dir="ltr"&gt;Expect some agreement, some arguing, and at least one ranking that'll make you talk back to your headphones. That's the whole point of a list like this.&lt;/p&gt; &lt;p dir="ltr"&gt;Got your own picks? Join us live on Thursday nights at 8pm ET on YouTube, Facebook, and Instagram, where the chat is how you tell us we got one wrong. **********************************************&lt;/p&gt; &lt;p dir="ltr"&gt;STAR TREK WINES&lt;/p&gt; &lt;p dir="ltr"&gt;Trek Geeks is proud to welcome our friends at Star Trek Wines to Trek Geeks and Thursday Night Geeks! &lt;/p&gt; &lt;p dir="ltr"&gt;Visit &lt;a href="https://trekgeeks.com/startrekwines"&gt;https://trekgeeks.com/startrekwines&lt;/a&gt; to shop from there fantastic line of beverages--and use the special discount code TREKGEEKS10 at checkout for 10 percent off your order of $100 or more! &lt;/p&gt; &lt;p dir="ltr"&gt; &lt;/p&gt;</description>
+      <guid isPermaLink="false">9f53ea59-b6dc-4e16-945a-3d3ce19e8895</guid>
+      <enclosure url="https://traffic.libsyn.com/secure/trekgeeks/tg343.mp3?dest-id=242244" length="87742515" type="audio/mpeg"/>
+      <pubDate>Thu, 24 Sep 2026 07:00:00 +0000</pubDate>
+      <itunes:author>Trek Geeks: A Star Trek Podcast</itunes:author>
+      <itunes:image href="https://static.libsyn.com/p/assets/b/1/4/1/b1414979ea525671e5bbc093207a2619/tg343.jpg"/>
+      <itunes:duration>01:00:46</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>343</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>Aaron Rosenberg</title>
       <link>https://podcasters.spotify.com/pod/show/bigscifipodcast/episodes/Aaron-Rosenberg-e3p52s6</link>
@@ -1627,38 +1641,6 @@ Get all your SECRET FRIENDS UNITE merch at our Redbubble store! Click here</desc
       <itunes:duration>01:10:23</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>336</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>170: The Troi-Fecta!</title>
-      <link>https://secretfriendsunite.com/code-47-star-trek-talk/c47e170</link>
-      <description>John Orquiola, Senior Editor at ScreenRant, joins us to chat about the new documentary BEAM ME UP, SULU;  then it’s on to the next installment of  “Best &amp; Worst Top Fives”  with STAR TREK: THE NEXT GENERATION.
-
-Find John &amp; ScreenRant on Instagram &amp; all the Socials as @backofthehead
-
-See “Yorktown - A Time to Heal” on Youtube
-
-Drop us a line at secretfriendsunite@gmail.com and let us know what you’re enjoying in the ‘world of nerd’ and we might feature your comments on the show! 
-
-Find us online at secretfriendsunite.com for ALL of our episodes, additional content and bios of our SFU Network stars!
-
-Hear Peter on STARSHIP EXCELSIOR at https://starshipexcelsior.com/episodes/#s6
-
-Subscribe to our podcasts on Apple and Spotify
-
-Hit us up on Threads, Instagram &amp; BlueSky: @Secret.Friends.Unite, @Secretfriendsunite, @TheCeeThree
-
-Check out our LinkTree for all the ways to reach us
-
-Get all your SECRET FRIENDS UNITE merch at our Redbubble store! Click here</description>
-      <guid isPermaLink="false">5f2b5a9c8862a31a00703f95:604bcfa0bd08ec607cdda657:69dbc8f3bd54b97b00dcb463</guid>
-      <enclosure url="https://pdcn.co/e/static1.squarespace.com/static/5f2b5a9c8862a31a00703f95/t/69dbc91215c36216d55e0c32/1777230454978/170.mp3" length="95691792" type="audio/mpeg"/>
-      <pubDate>Mon, 13 Apr 2026 22:00:51 +0000</pubDate>
-      <itunes:author>Code 47 - Star Trek Talk</itunes:author>
-      <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
-      <itunes:duration>1:45:36</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>170</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
