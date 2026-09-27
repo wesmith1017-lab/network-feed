@@ -12,7 +12,7 @@
       <link>https://www.trekgeeks.com</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Sep 2026 13:36:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 18:05:22 +0000</lastBuildDate>
     <itunes:author>Trek Geeks Podcast Network</itunes:author>
     <itunes:category text="TV &amp; Film"/>
     <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
@@ -21,6 +21,21 @@
       <itunes:name>Trek Geeks Podcast Network</itunes:name>
       <itunes:email>podcast@trekgeeks.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>React &amp; Review: Strange New World's "Once La'An a Time"</title>
+      <link>https://www.trekgeeks.com</link>
+      <description>&lt;p&gt;&lt;a href="https://www.buzzsprout.com/2302178/fan_mail/new" target="_blank"&gt;Communications Open&lt;/a&gt;&lt;/p&gt;&lt;p&gt;La’An embarks on her own journey through the Elysian Kingdom, while the Enterprise crew encounters storybook characters and begins to uncover the reason behind the kingdom’s existence.&lt;/p&gt;&lt;p&gt;NOTE: These episodes are from a live broadcast that you can view on my YouTube channel, @CrusherConvo. You can also find me on Instagram, Threads, BlueSky, and TikTok! I am not affiliated with Gates McFadden or her team. This is a fan-based podcast that admires and enjoys her work!&lt;br /&gt;&lt;br /&gt;Website: CrusherConvo.com&lt;br /&gt;TeePublic: teepublic.com/user/crusher-convo&lt;br /&gt;Patreon: patreon.com/CrusherConvo&lt;br /&gt;Buy me a Coffee: buymeacoffee.com/crusherconvo &lt;br /&gt;Trek Geeks Network: Trekgeeks.com&lt;br /&gt;Fansets: Fansets.com (Code: &amp;quot;TrekGeeks&amp;quot; for 10% off)&lt;br /&gt;Cherry Tree: MyCherryTree.com (Code: &amp;quot;CrusherConvo6&amp;quot; for 6% off)&lt;/p&gt;&lt;p&gt;&lt;a href="https://buymeacoffee.com/crusherconvo" rel="payment"&gt;Support the show&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">Buzzsprout-19869909</guid>
+      <enclosure url="https://www.buzzsprout.com/2302178/episodes/19869909-react-review-strange-new-world-s-once-la-an-a-time.mp3" length="9133933" type="audio/mpeg"/>
+      <pubDate>Sun, 27 Sep 2026 16:00:00 +0000</pubDate>
+      <itunes:author>Crusher Convo Podcast</itunes:author>
+      <itunes:image href="https://storage.buzzsprout.com/mqdn7lwy6gp7st6u31ljb64k2a8z?.jpg"/>
+      <itunes:duration>758</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:season>4</itunes:season>
+      <itunes:episode>38</itunes:episode>
+      <itunes:episodeType>bonus</itunes:episodeType>
+    </item>
     <item>
       <title>Celia Rose Gooding | "Tomorrow's Enterprise"</title>
       <link>https://syfysistas.libsyn.com/celia-rose-gooding-tomorrows-enterprise</link>
@@ -1623,21 +1638,6 @@ Get all your SECRET FRIENDS UNITE merch at our Redbubble store! Click here</desc
       <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/45172659/45172659-1776781429078-9d8887ba030c6.jpg"/>
       <itunes:duration>00:30:19</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>Ep: 080 Three Little Ships | Star Trek: Lower Deck's "wej Duj" Review</title>
-      <link>https://www.trekgeeks.com</link>
-      <description>&lt;p&gt;&lt;a href="https://www.buzzsprout.com/2302178/fan_mail/new" target="_blank"&gt;Communications Open&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Boimler hunts for a “bridge buddy” with awkward results, and we explore how lower deck crews operate on Klingon and Vulcan ships.&lt;br /&gt;&lt;br /&gt;Special Guest: John Orquiola from Screenrant&lt;/p&gt;&lt;p&gt;NOTE: These episodes are from a live broadcast that you can view on my YouTube channel, @CrusherConvo. You can also find me on Instagram, Threads, BlueSky, and TikTok! I am not affiliated with Gates McFadden or her team. This is a fanbase podcast that admires and enjoys her work! &lt;br /&gt;&lt;br /&gt;Website: crusherconvo.com&lt;br /&gt;TeePublic: teepublic.com/user/crusher-convo&lt;br /&gt;Patreon: patreon.com/CrusherConvo&lt;br /&gt;Buy me a Coffee: buymeacoffee.com/crusherconvo&lt;/p&gt;&lt;p&gt;&lt;a href="https://buymeacoffee.com/crusherconvo" rel="payment"&gt;Support the show&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">Buzzsprout-18979109</guid>
-      <enclosure url="https://www.buzzsprout.com/2302178/episodes/18979109-ep-080-three-little-ships-star-trek-lower-deck-s-wej-duj-review.mp3" length="40819506" type="audio/mpeg"/>
-      <pubDate>Sat, 18 Apr 2026 06:00:00 +0000</pubDate>
-      <itunes:author>Crusher Convo Podcast</itunes:author>
-      <itunes:image href="https://storage.buzzsprout.com/by481ikd13409oi2s1hbj3w7kpyx?.jpg"/>
-      <itunes:duration>3398</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:season>4</itunes:season>
-      <itunes:episode>14</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
