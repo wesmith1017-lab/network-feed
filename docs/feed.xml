@@ -12,7 +12,7 @@
       <link>https://www.trekgeeks.com</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Oct 2026 21:26:29 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 01:15:08 +0000</lastBuildDate>
     <itunes:author>Trek Geeks Podcast Network</itunes:author>
     <itunes:category text="TV &amp; Film"/>
     <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
@@ -21,6 +21,42 @@
       <itunes:name>Trek Geeks Podcast Network</itunes:name>
       <itunes:email>podcast@trekgeeks.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>E183: She’s Like a Reverse Professor X</title>
+      <link>https://secretfriendsunite.com/code-47-star-trek-talk/c47e183</link>
+      <description>Set the wayback machine nearly 40 years for RANDOM ‘SODE, landing on TNG’s First Season episode “Haven.” Then we move on to “Top Fives” of Captains/First Officers with KIRA NERYS.
+
+Hear our great chat with Nana Visitor! https://secretfriendsunite.com/spotlight/sfuspotlightnanavisitor
+
+News from TREKMOVIE.COM
+Belated NYCC first-hand report about SFA Drop Date and panel
+I don’t love prequels, but I have to say, this sounds like it would have been kinda awesome
+
+Use the discount code TREKGEEKS for 10% of your entire order at FanSets.com. Spend more than $30 and automatically get free shipping in the U.S.!!!
+
+Drop us a line at secretfriendsunite@gmail.com and let us know what you’re enjoying in the ‘world of nerd’ and we might feature your comments on the show! 
+
+Find us online at secretfriendsunite.com for ALL of our episodes, additional content and bios of our SFU Network stars!
+
+Hear Peter on STARSHIP EXCELSIOR at https://starshipexcelsior.com/episodes/#s6
+
+Subscribe to our podcasts on Apple and Spotify
+
+Hit us up on Threads, Instagram &amp; BlueSky: @Secret.Friends.Unite, @Secretfriendsunite, @TheCeeThree
+
+Check out our LinkTree for all the ways to reach us
+
+Get all your SECRET FRIENDS UNITE merch at our Redbubble store! Click here</description>
+      <guid isPermaLink="false">5f2b5a9c8862a31a00703f95:604bcfa0bd08ec607cdda657:6ade296c4afc8f4db4b924da</guid>
+      <enclosure url="https://pdcn.co/e/static1.squarespace.com/static/5f2b5a9c8862a31a00703f95/t/6ade298f2d9d1266d8131107/1792944546916/183.mp3" length="74928264" type="audio/mpeg"/>
+      <pubDate>Mon, 26 Oct 2026 22:00:12 +0000</pubDate>
+      <itunes:author>Code 47 - Star Trek Talk</itunes:author>
+      <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
+      <itunes:duration>1:24:03</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>183</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>Jessi from Crusher Convo Podcast</title>
       <link>https://podcasters.spotify.com/pod/show/brian17/episodes/Jessi-from-Crusher-Convo-Podcast-e3r4jv6</link>
@@ -1625,21 +1661,6 @@ Get all your SECRET FRIENDS UNITE merch at our Redbubble store! Click here</desc
       <itunes:explicit>no</itunes:explicit>
       <itunes:season>6</itunes:season>
       <itunes:episode>10</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>Jurassic World: Rebirth</title>
-      <link>https://podcasters.spotify.com/pod/show/bigscifipodcast/episodes/Jurassic-World-Rebirth-e3jnm0v</link>
-      <description>&lt;p&gt;&lt;strong&gt;The 2025 Film &lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Hold onto your butts — a new episode of The BIG Sci‑Fi Podcast has escaped the paddock!&lt;/p&gt;&lt;p&gt;This week, the hosts take on Jurassic World: Rebirth, unpacking its biggest moments, boldest ideas, and all the dino‑powered excitement in between.&lt;/p&gt;&lt;p&gt;Whether you're Team T‑Rex or Team Raptor, you’ll have a blast with this one.&lt;br /&gt;🦕🎧 Dive in and enjoy the adventure!&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">bf7c9ae5-d99a-49ce-8265-bf497705a6b7</guid>
-      <enclosure url="https://anchor.fm/s/e3caae34/podcast/play/120362463/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-22%2Fb854269f-e0d0-7f51-da81-fb7cb549560b.mp3" length="94996260" type="audio/mpeg"/>
-      <pubDate>Fri, 22 May 2026 07:00:00 +0000</pubDate>
-      <itunes:author>The BIG Sci-Fi Podcast</itunes:author>
-      <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/38117109/38117109-1779410366974-2931d0dd3c3ce.jpg"/>
-      <itunes:duration>00:56:14</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:season>10</itunes:season>
-      <itunes:episode>16</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
