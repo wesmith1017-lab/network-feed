@@ -12,7 +12,7 @@
       <link>https://www.trekgeeks.com</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Nov 2026 07:40:15 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 15:55:39 +0000</lastBuildDate>
     <itunes:author>Trek Geeks Podcast Network</itunes:author>
     <itunes:category text="TV &amp; Film"/>
     <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
@@ -21,6 +21,20 @@
       <itunes:name>Trek Geeks Podcast Network</itunes:name>
       <itunes:email>podcast@trekgeeks.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Remembering Walter Koenig &amp; Sir Patrick Stewart</title>
+      <link>https://trekgeeks.libsyn.com/remembering-walter-koenig-sir-patrick-stewart</link>
+      <description>&lt;p&gt;It almost seems like it was a bad dream. Last week was legimately the worst week in Star Trek fandom with the passings of Walter Koenig--Ensign Pavel Chekov from the original Star Trek--and the legendary Sir Patrick Stewart--Captain Jean-Luc Picard from Star Trek: The Next Generation. Bill and Dan talk about the impact of both men on the franchise, discuss their importance in Star Trek, and remember some of their finest moments in this audio from the last Trek Geeks: Thursday Night Geeks.&lt;/p&gt; &lt;p&gt;========================== Walter Koenig 1936-2026 Sir Patrick Stewart 1940-2026&lt;/p&gt;</description>
+      <guid isPermaLink="false">7386a872-8c3c-4355-8521-f49ec0586feb</guid>
+      <enclosure url="https://traffic.libsyn.com/secure/trekgeeks/tg345.mp3?dest-id=242244" length="92475225" type="audio/mpeg"/>
+      <pubDate>Tue, 03 Nov 2026 08:00:00 +0000</pubDate>
+      <itunes:author>Trek Geeks: A Star Trek Podcast</itunes:author>
+      <itunes:image href="https://static.libsyn.com/p/assets/4/5/4/3/4543a2d0a7c63af8a04421dee9605cbd/tg345-20261101-7efrevj0j5.jpg"/>
+      <itunes:duration>01:04:07</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>345</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>Ep: 097 Prison Break | Review of Star Trek: Prodigy's "Touch of Grey"</title>
       <link>https://www.trekgeeks.com</link>
@@ -1646,21 +1660,6 @@ Get all your SECRET FRIENDS UNITE merch at our Redbubble store! Click here</desc
       <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/45172659/45172659-1779356822329-2b7cb688b6f7d.jpg"/>
       <itunes:duration>00:45:10</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>Ep: 084  Fear of the Unseen | Review of Star Trek: Enterprise's "Silent Enemy"</title>
-      <link>https://www.trekgeeks.com</link>
-      <description>&lt;p&gt;&lt;a href="https://www.buzzsprout.com/2302178/fan_mail/new" target="_blank"&gt;Communications Open&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Enterprise is attacked by a silent, unknown alien ship, forcing Archer to deploy risky new phase cannons—while Hoshi scrambles to uncover Reed’s favorite food for an awkward birthday surprise.&lt;br /&gt;&lt;br /&gt;Special Guest: Edwin from Enjoying Stories Together Podcast&lt;/p&gt;&lt;p&gt;NOTE: These episodes are from a live broadcast that you can view on my YouTube channel, @CrusherConvo. You can also find me on Instagram, Threads, BlueSky, and TikTok! I am not affiliated with Gates McFadden or her team. This is a fanbase podcast that admires and enjoys her work! &lt;br /&gt;&lt;br /&gt;Website: crusherconvo.com&lt;br /&gt;TeePublic: teepublic.com/user/crusher-convo&lt;br /&gt;Patreon: patreon.com/CrusherConvo&lt;br /&gt;Buy me a Coffee: buymeacoffee.com/crusherconvo&lt;/p&gt;&lt;p&gt;&lt;a href="https://buymeacoffee.com/crusherconvo" rel="payment"&gt;Support the show&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">Buzzsprout-19116875</guid>
-      <enclosure url="https://www.buzzsprout.com/2302178/episodes/19116875-ep-084-fear-of-the-unseen-review-of-star-trek-enterprise-s-silent-enemy.mp3" length="29121923" type="audio/mpeg"/>
-      <pubDate>Sun, 24 May 2026 06:00:00 +0000</pubDate>
-      <itunes:author>Crusher Convo Podcast</itunes:author>
-      <itunes:image href="https://storage.buzzsprout.com/0oqo0yhee9tvehy58s4bbqowmsj6?.jpg"/>
-      <itunes:duration>2423</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:season>4</itunes:season>
-      <itunes:episode>18</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
