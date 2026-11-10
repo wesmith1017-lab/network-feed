@@ -12,7 +12,7 @@
       <link>https://www.trekgeeks.com</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Nov 2026 03:15:43 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 12:16:04 +0000</lastBuildDate>
     <itunes:author>Trek Geeks Podcast Network</itunes:author>
     <itunes:category text="TV &amp; Film"/>
     <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
@@ -21,6 +21,21 @@
       <itunes:name>Trek Geeks Podcast Network</itunes:name>
       <itunes:email>podcast@trekgeeks.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>In Loving Memory of Walter and Patrick</title>
+      <link>https://podcasters.spotify.com/pod/show/bigscifipodcast/episodes/In-Loving-Memory-of-Walter-and-Patrick-e3s46mr</link>
+      <description>&lt;p&gt;The crew takes time to remember and celebrate the lives and work of Walter Koenig and Sir Patrick Stewart. The week of October 25th was one of the toughest for Trekkies as we lost two living legends and beloved members of Star Trek. &lt;/p&gt;&lt;p&gt;Adeena, Brian, Cris, and Steve gathered to talk about how losing these two gentlemen has impacted them and to remember the good times and what we learned from them. &lt;/p&gt;&lt;p&gt;This was a tough one, but the crew wanted to honor the impact these two men have made on the franchise and on each of them personally.&lt;/p&gt;</description>
+      <guid isPermaLink="false">6f4f12f8-524d-4c47-8144-f1b4080a0bf6</guid>
+      <enclosure url="https://anchor.fm/s/e3caae34/podcast/play/129161371/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-10%2Fc88cc553-b7fe-5f3b-aea7-33ef9cbe1971.mp3" length="121034294" type="audio/mpeg"/>
+      <pubDate>Tue, 10 Nov 2026 08:00:00 +0000</pubDate>
+      <itunes:author>The BIG Sci-Fi Podcast</itunes:author>
+      <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/38117109/38117109-1794274790905-3d374943a411b.jpg"/>
+      <itunes:duration>01:11:44</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:season>11</itunes:season>
+      <itunes:episode>14</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>E184: In Memoriam - Walter Koenig &amp; Sir Patrick Stewart</title>
       <link>https://secretfriendsunite.com/code-47-star-trek-talk/c47e184</link>
@@ -1651,21 +1666,6 @@ Get all your SECRET FRIENDS UNITE merch at our Redbubble store! Click here</desc
       <itunes:explicit>no</itunes:explicit>
       <itunes:season>4</itunes:season>
       <itunes:episode>19</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>The Visitor</title>
-      <link>https://podcasters.spotify.com/pod/show/bigscifipodcast/episodes/The-Visitor-e3k2e30</link>
-      <description>&lt;p&gt;The Classic DS9 Episode &lt;/p&gt;&lt;p&gt;Few hours of Star Trek have ever hit as hard — or as honestly — as Deep Space Nine’s “The Visitor.” In this deeply personal episode of The BIG Sci‑Fi Podcast, the crew opens up about one of the most powerful and emotionally devastating stories in Trek history.&lt;/p&gt;&lt;p&gt;We explore why this episode continues to resonate decades later, how its themes of grief, legacy, and the unbreakable bond between parents and children land differently as we age, and what it reveals about the human experience through the lens of science fiction.&lt;/p&gt;&lt;p&gt;This conversation gets real. We share our own stories, our own losses, and the moments in “The Visitor” that still stop us in our tracks. Whether you’ve seen the episode once or a hundred times, this discussion will remind you why Star Trek storytelling endures — and why this particular hour remains one of its most unforgettable achievements.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">4735460a-8f06-4ff1-9a2b-e791e48f5a94</guid>
-      <enclosure url="https://anchor.fm/s/e3caae34/podcast/play/120714784/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-29%2Fb480b99b-2d9b-5ba2-2542-8335177021cb.mp3" length="92498784" type="audio/mpeg"/>
-      <pubDate>Fri, 29 May 2026 11:40:33 +0000</pubDate>
-      <itunes:author>The BIG Sci-Fi Podcast</itunes:author>
-      <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/38117109/38117109-1780054802202-6a5a9d3170762.jpg"/>
-      <itunes:duration>00:54:45</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:season>10</itunes:season>
-      <itunes:episode>17</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
