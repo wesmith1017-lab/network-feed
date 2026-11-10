@@ -12,7 +12,7 @@
       <link>https://www.trekgeeks.com</link>
     </image>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Nov 2026 20:29:55 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 03:15:43 +0000</lastBuildDate>
     <itunes:author>Trek Geeks Podcast Network</itunes:author>
     <itunes:category text="TV &amp; Film"/>
     <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
@@ -21,6 +21,38 @@
       <itunes:name>Trek Geeks Podcast Network</itunes:name>
       <itunes:email>podcast@trekgeeks.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>E184: In Memoriam - Walter Koenig &amp; Sir Patrick Stewart</title>
+      <link>https://secretfriendsunite.com/code-47-star-trek-talk/c47e184</link>
+      <description>Joined by our friend John Orquiola of ScreenRant, we take a break from talking episodes to honor the passing of two TREK legends we just lost, Walter Koenig and Sir Patrick Stewart.
+
+Find John &amp; ScreenRant on Instagram &amp; all the Socials as @backofthehead !
+
+Use the discount code TREKGEEKS for 10% of your entire order at FanSets.com. Spend more than $30 and automatically get free shipping in the U.S.!!!
+
+Drop us a line at secretfriendsunite@gmail.com and let us know what you’re enjoying in the ‘world of nerd’ and we might feature your comments on the show! 
+
+Find us online at secretfriendsunite.com for ALL of our episodes, additional content and bios of our SFU Network stars!
+
+Hear Peter on STARSHIP EXCELSIOR at https://starshipexcelsior.com/episodes/#s6
+
+Subscribe to our podcasts on Apple and Spotify
+
+Hit us up on Threads, Instagram &amp; BlueSky: @Secret.Friends.Unite, @Secretfriendsunite, @TheCeeThree
+
+Check out our LinkTree for all the ways to reach us
+
+Get all your SECRET FRIENDS UNITE merch at our Redbubble store! Click here</description>
+      <guid isPermaLink="false">5f2b5a9c8862a31a00703f95:604bcfa0bd08ec607cdda657:6af0a9832f132f1815f63688</guid>
+      <enclosure url="https://pdcn.co/e/static1.squarespace.com/static/5f2b5a9c8862a31a00703f95/t/6af0a9a17623d61b8819d036/1794157005352/184.mp3" length="52233068" type="audio/mpeg"/>
+      <pubDate>Mon, 09 Nov 2026 23:00:31 +0000</pubDate>
+      <itunes:author>Code 47 - Star Trek Talk</itunes:author>
+      <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
+      <itunes:duration>59:11</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>184</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>BONUS: O Captain, My Captain | A Tribute to Sir Patrick Stewart</title>
       <link>https://www.trekgeeks.com</link>
@@ -1634,34 +1666,6 @@ Get all your SECRET FRIENDS UNITE merch at our Redbubble store! Click here</desc
       <itunes:explicit>no</itunes:explicit>
       <itunes:season>10</itunes:season>
       <itunes:episode>17</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>173: C+ For Effort</title>
-      <link>https://secretfriendsunite.com/code-47-star-trek-talk/c47e173</link>
-      <description>RANDOM ‘SODE switches to ‘toons with a return to LOWER DECKS with Season 2’s “Kayshon, His Eyes Open” &amp; then on to the next installment of “Best &amp; Worst Top Fives” with STAR TREK: ENTERPRISE.
-
-Drop us a line at secretfriendsunite@gmail.com and let us know what you’re enjoying in the ‘world of nerd’ and we might feature your comments on the show! 
-
-Find us online at secretfriendsunite.com for ALL of our episodes, additional content and bios of our SFU Network stars!
-
-Hear Peter on STARSHIP EXCELSIOR at https://starshipexcelsior.com/episodes/#s6
-
-Subscribe to our podcasts on Apple and Spotify
-
-Hit us up on Threads, Instagram &amp; BlueSky: @Secret.Friends.Unite, @Secretfriendsunite, @TheCeeThree
-
-Check out our LinkTree for all the ways to reach us
-
-Get all your SECRET FRIENDS UNITE merch at our Redbubble store! Click here</description>
-      <guid isPermaLink="false">5f2b5a9c8862a31a00703f95:604bcfa0bd08ec607cdda657:6a10fce3bb16106b0b4bcc25</guid>
-      <enclosure url="https://pdcn.co/e/static1.squarespace.com/static/5f2b5a9c8862a31a00703f95/t/6a10fd0b72622a592fa0ae48/1780837123689/173.mp3" length="72048888" type="audio/mpeg"/>
-      <pubDate>Mon, 25 May 2026 22:00:35 +0000</pubDate>
-      <itunes:author>Code 47 - Star Trek Talk</itunes:author>
-      <itunes:image href="https://wesmith1017-lab.github.io/network-feed/artwork.jpg"/>
-      <itunes:duration>1:19:52</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>173</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
